@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  
+
   <style>
     /* General styles */
     body {
@@ -61,90 +61,19 @@
       user-select: all;
     }
 
-    .gallery-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .gallery-item {
-      position: relative;
-      flex-basis: calc(50% - 10px);
-      max-width: 100%;
-      height: auto;
-    }
-
-    .gallery-item img {
-      display: block;
-      width: 100%;
-      height: auto;
-      cursor: pointer;
-    }
-
-    .caption {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 10px;
-      background-color: rgba(0, 0, 0, 0.8);
+    .download-link {
+      display: inline-block;
+      background-color: #02acfa;
       color: #fff;
-      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
     }
 
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    .modal-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-    }
-
-    .modal-content img {
-      max-width: 80%;
-      max-height: 80%;
-    }
-
-    .close {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 40px;
-      font-weight: bold;
-      color: #fff;
-      cursor: pointer;
-    }
-
-    #modal-caption {
-      color: rgb(148, 147, 147);
-    }
-
-    .modal-content,
-    .close {
-      animation-name: zoom;
-      animation-duration: 0.6s;
-    }
-
-    @keyframes zoom {
-      from {
-        transform: scale(0);
-      }
-
-      to {
-        transform: scale(1);
-      }
+    .download-link:hover {
+      background-color: #018ec3;
     }
   </style>
 </head>
@@ -184,8 +113,8 @@
         Vanilla+ is a pack made to be similar to the vanilla experience, but
         better optimized for survival and PVP with remixed versions of
         vanilla-styled textures. The pack is made by Marlow
-        <a href="discord.gg/TRuQQ3ZGbn" target="_blank">(discord.gg/TRuQQ3ZGbn)</a>
-        | You can find download links for each version of the pack below.
+        <a href="discord.gg/TRuQQ3ZGbn" target="_blank">(discord.gg/TRuQQ3ZGbn)</a>.
+        You can find download links for each version of the pack below.
       </p>
       <br />
       <iframe width="560" height="315" src="https://www.youtube.com/embed/SAf7IZ4jrUI" title="YouTube video player"
@@ -194,11 +123,12 @@
         allowfullscreen></iframe>
       <br />
       <br />
-      <a href="assets/VanillaPlus_V2_1.17.1.zip" target="_blank"><strong>[1.18.2-1.19.x]
-          Download</strong></a><br /><br />
-      <a href="assets/VanillaPlus_V2_1.17.1.zip" target="_blank"><strong>[1.17.1] Download</strong></a><br /><br />
-      <a href="assets/VanillaPlus_V2_1.17.1.zip" target="_blank"><strong>[1.16.5-1.19.x] Download (2D
-          Crystals)</strong></a>
+      <a href="assets/VanillaPlus_V2_1.18.2.zip" target="_blank" class="download-link"><i class="fas fa-download"></i>
+        Download for 1.18.2+</a><br /><br />
+      <a href="assets/VanillaPlus_V2_1.17.1.zip" target="_blank" class="download-link"><i class="fas fa-download"></i>
+        Download for 1.17.1</a><br /><br />
+      <a href="assets/VanillaPlus_V2_1.16.5.zip" target="_blank" class="download-link"><i class="fas fa-download"></i>
+        Download for 1.16.5+ (2D Crystals)</a>
       <br />
       <br />
       <br />
