@@ -1,245 +1,301 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vanilla+</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-        <script src="script.js"></script>
-        <style>
-            /* General styles */
-            body {
-              font-family: "Segoe UI", sans-serif;
-              font-size: 16px;
-              color: #333;
-            }
 
-            .container {
-              max-width: 800px;
-              margin: 0 auto;
-              padding: 20px;
-            }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla+</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <script src="script.js"></script>
+  <style>
+    /* General styles */
+    body {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
 
-            h1 {
-              font-size: 36px;
-              text-align: center;
-              margin-top: 0;
-            }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-            h2 {
-              font-size: 24px;
-              margin-top: 20px;
-            }
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-top: 0;
+    }
 
-            ul {
-              list-style: none;
-              margin: 0;
-              padding: 0;
-            }
+    h2 {
+      font-size: 24px;
+      margin-top: 20px;
+    }
 
-            li1:before {
-              content: "\2022";
-              color: #02acfa;
-              font-size: 20px;
-              margin-right: 10px;
-              line-height: 1.5em;
-              
-            }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
 
+    li1:before {
+      content: "\2022";
+      color: #02acfa;
+      font-size: 20px;
+      margin-right: 10px;
+      line-height: 1.5em;
+    }
 
-            /* Specific styles */
-            .rules-section {
-              margin-top: 40px;
-            }
+    /* Specific styles */
+    .rules-section {
+      margin-top: 40px;
+    }
 
-            .minecraft-rules {
-              margin-bottom: 40px;
-            }
+    .minecraft-rules {
+      margin-bottom: 40px;
+    }
 
-            code {
-              user-select: all;
-            }
+    code {
+      user-select: all;
+    }
 
-            .gallery-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            }
+    .gallery-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
 
-            .gallery-item {
-            position: relative;
-            flex-basis: calc(50% - 10px);
-            max-width: 100%;
-            height: auto;
-            }
+    .gallery-item {
+      position: relative;
+      flex-basis: calc(50% - 10px);
+      max-width: 100%;
+      height: auto;
+    }
 
-            .gallery-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-            cursor: pointer;
-            }
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
 
-            .caption {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            text-align: center;
-            }
+    .caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      text-align: center;
+    }
 
-            .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
 
-            .modal-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            }
+    .modal-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
 
-            .modal-content img {
-            max-width: 80%;
-            max-height: 80%;
-            }
+    .modal-content img {
+      max-width: 80%;
+      max-height: 80%;
+    }
 
-            .close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            font-size: 40px;
-            font-weight: bold;
-            color: #fff;
-            cursor: pointer;
-            }
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+    }
 
-            #modal-caption {
-            color: rgb(148, 147, 147);
-            }
+    #modal-caption {
+      color: rgb(148, 147, 147);
+    }
 
-            .modal-content, .close {
-            animation-name: zoom;
-            animation-duration: 0.6s;
-            }
+    .modal-content,
+    .close {
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
 
-            @keyframes zoom {
-            from {transform: scale(0)}
-            to {transform: scale(1)}
-            }
+    @keyframes zoom {
+      from {
+        transform: scale(0);
+      }
 
+      to {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
 
-
-
-        </style>
-    </head>
-    <body>
-      <header>
-		<nav>
-			<div class="logo"><a href="#">Vanilla+</a></div>
-			<label for="menu-toggle" class="icon"><i class="fas fa-bars"></i></label>
-			<!-- <input type="checkbox" id="menu-toggle"> -->
-			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="rules.html">Rules</a></li>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="#">Vanilla+</a></div>
+      <label for="menu-toggle" class="icon"><i class="fas fa-bars"></i></label>
+      <!-- <input type="checkbox" id="menu-toggle"> -->
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rules.html">Rules</a></li>
         <li><a href="https://store.vanillaplus.net">Store</a></li>
         <li><a href="https://discord.gg/vanillaplus">Discord</a></li>
-				<li><a href="server-info.html">Server Info</a></li>
-				<li><a href="pack.html">Texture Pack</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropbtn">Guides <i class="fas fa-chevron-down"></i></a>
-					<div class="dropdown-content">
-						<a href="ip-safety.pdf">IP Safety Guide</a>
-						<a href="gold-farms.html">Gold Farms</a>
-						<a href="raid-farms.html">Raid Farms</a>
-						<a href="Villagers.html">Villagers</a>
-					</div>
-				</li>
-			</ul>
-		</nav>
-	</header>
+        <li><a href="server-info.html">Server Info</a></li>
+        <li><a href="pack.html">Texture Pack</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Guides <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-content">
+            <a href="ip-safety.pdf">IP Safety Guide</a>
+            <a href="gold-farms.html">Gold Farms</a>
+            <a href="raid-farms.html">Raid Farms</a>
+            <a href="Villagers.html">Villagers</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-	<section class="main-content">
-		<div class="container">
-			<h2>Gold Farms</h2>
-            <br>
-            <br>
-            <h3>Nether Based Designs</h3>
-            <br>
-            <p>Nether based gold farms use normal mob spawning mechanics to spawn zombified-pigmen on magma block platforms and then bring them to a central area where they can be killed. These are the recommended type of gold farm on Vanilla+ as other other gold farm designs are nerfed on the server.</p>
-			<br>
-            <div class="gallery-container">
-                <div class="gallery-item">
-                  <img src="assets/nether1.png" alt="Image 1" onclick="openModal('assets/nether1.png', 'This farm has a drop down where the pigmen fall so they can easily be killed by a player')">
-                  <div class="caption">This farm has a drop down where the pigmen fall so they can easily be killed by a player</div>
-                </div>
-                <div class="gallery-item">
-                  <img src="assets/nether2.png" alt="Image 2" onclick="openModal('assets/nether2.png', 'This nether based farm uses portals to quickly move pigmen to a killing area in the overworld')">
-                  <div class="caption">This nether based farm uses portals to quickly move pigmen to a killing area in the overworld</div>
-                </div>
+  <section class="main-content">
+    <div class="container">
+      <h2>Gold Farms</h2>
+      <br />
+      <br />
+      <h3>Nether Based Designs</h3>
+      <br />
+      <p>
+        Nether based gold farms use normal mob spawning mechanics to spawn
+        zombified-pigmen on magma block platforms and then bring them to a
+        central area where they can be killed. These are the recommended type
+        of gold farm on Vanilla+ as other other gold farm designs are nerfed
+        on the server.
+      </p>
+      <br />
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="assets/nether1.png" alt="Image 1"
+            onclick="openModal('assets/nether1.png', 'This farm has a drop down where the pigmen fall so they can easily be killed by a player')" />
+          <div class="caption">
+            This farm has a drop down where the pigmen fall so they can easily
+            be killed by a player
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/nether2.png" alt="Image 2"
+            onclick="openModal('assets/nether2.png', 'This nether based farm uses portals to quickly move pigmen to a killing area in the overworld')" />
+          <div class="caption">
+            This nether based farm uses portals to quickly move pigmen to a
+            killing area in the overworld
+          </div>
+        </div>
+      </div>
+
+      <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+          <img id="modal-image" />
+          <div id="modal-caption"></div>
+        </div>
+      </div>
+      <br />
+      <p>
+        Above are two slight various of a nether based gold farm. The one on
+        the right is a faster, but more complex and expensive to build. For
+        both of these types of designs there are some important things to
+        remember specifically for Vanilla+.
+      </p>
+      <br />
+      <br />
+      <h3>Vanilla+ Specific Changes</h3>
+      <br />
+      <ul>
+        <li1>Spawn radius</li1><br />
+        <ul>
+          <li1>On Vanilla+ mobs don’t spawn more than 64 blocks away from the
+            player, this means you need to adjust your afk spot accordingly so
+            it is blocks from the nearest spawning platform and 64 from the
+            furthest</li1><br />
+        </ul>
+        <li1>Mob Limits</li1><br />
+        <ul>
+          <li1>On Vanilla+ if you dont have a killing method and a bunch of
+            pigmen group up together some of them will be cleared, if more
+            than 16 pigmen within 20 block radius or more than 10 in a 2 block
+            radius some of them will be cleared. Please note that name tagged
+            pigmen will not be cleared.</li1><br />
+        </ul>
+        <br />
+        <br />
+        <h3>Overworld Based Designs</h3>
+        <br />
+        <p>
+          Overworld based gold farms utilize a mechanic where pigmen spawn
+          inside of nether portals. They involve a bunch of massive nether
+          portals, which makes them quite expensive to build. Normally they
+          are quite fast, however they cause a lot of lag and as a result on
+          Vanilla+ they are nerfed. We do not recommend building one of these
+          as they are quite slow on Vanilla+.
+        </p>
+        <br />
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="assets/overworld1.png" alt="Image 1"
+              onclick="openModal('assets/overworld1.png', 'This design uses portals to spawn pigmen in the overworld and funnels them to a central killing chamber')" />
+            <div class="caption">
+              This design uses portals to spawn pigmen in the overworld and
+              funnels them to a central killing chamber
             </div>
-              
-            <div id="modal" class="modal">
-                <span class="close">&times;</span>
-                <div class="modal-content">
-                    <img id="modal-image">
-                    <div id="modal-caption"></div>
-                </div>
-            </div>  
-            <br>  
-            <p>Above are two slight various of a nether based gold farm. The one on the right is a faster, but more complex and expensive to build. For both of these types of designs there are some important things to remember specifically for Vanilla+.</p>      
-            <br>
-            <br>
-			<h3>Vanilla+ Specific Changes</h3>
-            <br>
-			<ul>
-				<li1>Spawn radius</li1><br>
-				<ul><li1>On Vanilla+ mobs don’t spawn more than 64 blocks away from the player, this means you need to adjust your afk spot accordingly so it is blocks from the nearest spawning platform and 64 from the furthest</li1><br></ul>
-				<li1>Mob Limits</li1><br>
-                <ul><li1>On Vanilla+ if you dont have a killing method and a bunch of pigmen group up together some of them will be cleared, if more than 16 pigmen within 20 block radius or more than 10 in a 2 block radius some of them will be cleared. Please note that name tagged pigmen will not be cleared.</li1><br></ul>
-            <br>
-            <br>  
-            <h3>Overworld Based Designs</h3>
-            <br>
-            <p>Overworld based gold farms utilize a mechanic where pigmen spawn inside of nether portals. They involve a bunch of massive nether portals, which makes them quite expensive to build. Normally they are quite fast, however they cause a lot of lag and as a result on Vanilla+ they are nerfed. We do not recommend building one of these as they are quite slow on Vanilla+.</p>
-            <br>
-            <div class="gallery-container">
-                <div class="gallery-item">
-                  <img src="assets/overworld1.png" alt="Image 1" onclick="openModal('assets/overworld1.png', 'This design uses portals to spawn pigmen in the overworld and funnels them to a central killing chamber')">
-                  <div class="caption">This design uses portals to spawn pigmen in the overworld and funnels them to a central killing chamber
-                </div>
-                </div>
-            </div>
-            <br>
-            <br>
-			<h3>Vanilla+ Specific Changes</h3>
-            <br>
-			<ul>
-				<li1>Spawning nerfs</li1><br>
-				<ul><li1>On Vanilla+ overworld gold farms such as the design pictured are significantly slowed down</li1><br></ul>
-				<li1>Mob Limits</li1><br>
-                <ul><li1>On Vanilla+ if you dont have a killing method and a bunch of pigmen group up together some of them will be cleared, if more than 16 pigmen within 20 block radius or more than 10 in a 2 block radius some of them will be cleared. Please note that name tagged pigmen will not be cleared.</li1><br></ul>
-            <br>
-            <footer>
-              <br>
-              <br>
-              <center><p>Copyright © 2023 · Vanilla Plus - All Rights Reserved</p></center>
-            </footer>
+          </div>
+        </div>
+        <br />
+        <br />
+        <h3>Vanilla+ Specific Changes</h3>
+        <br />
+        <ul>
+          <li1>Spawning nerfs</li1><br />
+          <ul>
+            <li1>On Vanilla+ overworld gold farms such as the design pictured
+              are significantly slowed down</li1><br />
+          </ul>
+          <li1>Mob Limits</li1><br />
+          <ul>
+            <li1>On Vanilla+ if you dont have a killing method and a bunch of
+              pigmen group up together some of them will be cleared, if more
+              than 16 pigmen within 20 block radius or more than 10 in a 2
+              block radius some of them will be cleared. Please note that name
+              tagged pigmen will not be cleared.</li1><br />
+          </ul>
+          <br />
+          <footer>
+            <br />
+            <br />
+            <center>
+              <p>Copyright © 2023 · Vanilla Plus - All Rights Reserved</p>
+            </center>
+          </footer>
+        </ul>
+      </ul>
+    </div>
+  </section>
+</body>
 
-            
-
-				
+</html>
