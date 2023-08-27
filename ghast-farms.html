@@ -178,45 +178,65 @@
 
   <section class="main-content">
     <div class="container">
-      <h2>Raid Farms</h2>
+      <h2>Ghast Farms</h2>
       <br />
       <br />
-      <h3>Normal Raid Farms</h3>
+      <h3>Ghast Farms that use Nether Portals</h3>
       <br />
       <p>
-        Normal Raid Farms work properly on the server with 1 exception, being
-        that entity cramming is lowered on the server, to fix this many
-        players replace the block that mobs fall down to with a hay block
+        Due to the lag that is caused when Ghasts go through a Nether Portal into the overworld, we have made some modifications to Ghast Farm mechanics. 
       </p>
       <br />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/TDnppbTrdks" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="assets/ghast.png" alt="Image 1"
+            onclick="openModal('assets/ghast.png', 'This example has one small Nether Portal and hoppers on either side to pick up the Ghast drops that come through.')" />
+          <div class="caption">
+            This example has one small Nether Portal and hoppers on either side to pick up the Ghast drops that come through.
+          </div>
+        </div>
+        <!-- <div class="gallery-item">
+          <img src="assets/nether2.png" alt="Image 2"
+            onclick="openModal('assets/nether2.png', 'This nether based farm uses portals to quickly move pigmen to a killing area in the overworld')" />
+          <div class="caption">
+            This nether based farm uses portals to quickly move pigmen to a
+            killing area in the overworld
+          </div>
+        </div> -->
+      </div>
+
+      <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+          <img id="modal-image" />
+          <div id="modal-caption"></div>
+        </div>
+      </div>
+      <br />
+      <p>
+        Above is the overworld part of a Ghast Farm. On V+ all you need is one small Nether Portal and hoppers on either side to pick up the Ghast drops that come through. You could easily direct the drops into a sorting system using water streams around the portal.
+      </p>
       <br />
       <br />
       <h3>Vanilla+ Specific Changes</h3>
       <br />
       <ul>
-        <li1>Vexs</li1><br />
+        <li1>Ghast Drops</li1><br />
         <ul>
-          <li1>On Vanilla+ they are disabled and do not spawn on the server</li1><br />
+          <li1>On Vanilla+ we do not send the whole Ghast through the portal, only its drops.</li1><br />
         </ul>
-        <li1>Stacking Raid Farms</li1><br />
+        <li1>Drops</li1><br />
         <ul>
-          <li1>They may or may not work and are
-            <strong>not recommended</strong>, in some cases having a player
-            near the villager will make them work
-          </li1><br />
+          <li1>Drop amounts are randomized according to Vanilla Looting III behavior. (Max 4 Ghast Tears, Max 5 Gunpowder)</li1><br />
         </ul>
-        <br />
-        <footer>
-          <br />
-          <br />
-          <center>
-            <p>Copyright © 2023 · Vanilla Plus - All Rights Reserved</p>
-          </center>
-        </footer>
+          <footer>
+            <br />
+            <br />
+            <center>
+              <p>Copyright © 2023 · Vanilla Plus - All Rights Reserved</p>
+            </center>
+          </footer>
+        </ul>
       </ul>
     </div>
   </section>
