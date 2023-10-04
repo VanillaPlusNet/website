@@ -185,35 +185,16 @@
       <h3>Vanilla+ Specific Changes</h3>
       <br />
       <ul>
-        <li1>You can name villagers <code>Optimize</code> to disable their AI.
-          They will still restock and their levels will still increase when
-          you trade with them, but they will be frozen. This will reduce the
-          load of villagers on the server.</li1><br />
-        <ul>
-          <li1>When clicking the villager with the nametag, you will not loose
-            the nametag, meaning you can use it as many times as you
-            want.</li1><br />
-        </ul>
-        <ul>
-          <li1>Do not use this feature on farms that require the villager to
-            have AI. This is intended mainly for trading halls, and large
-            villager farms.</li1><br />
-        </ul>
+        <li1>When villagers are placed infront of a workstation, like they would be in a trading hall, their AI becomes disabled to save server resources.</li1><br />
         <ul>
           <li1>As normal, the villagers will restock twice per Minecraft
             day.</li1><br />
+          <li1>When the villager trade menu is opened, the villager will check if it is next to a workstation, if it is, its AI will be disabled</li1><br />
+          <ul>
+            <li1>Similarly, in the oposite way, when the villager trade menu is opened, the villager will check if it is no longer next to a workstation, and if so re-enable AI</li1><br />
+            <li1>Once this has happend, normal villager mechanics kick in and if the villager is no longer connected to a workstation, it will lose its profession.</li1><br />  
+          </ul>  
         </ul>
-        <br />
-        <li1>Having more than 10 villagers in 1 chunk will cause their AI to be
-          disabled<br /></li1>
-        <ul>
-          <li1>When in this state, they will not: move, restock or spawn iron
-            golems<br /></li1>
-        </ul>
-        <ul>
-          <li1>To allow them to restock, name them <code>Optimize</code><br /></li1>
-        </ul>
-
         <br />
         <br />
         <footer>
