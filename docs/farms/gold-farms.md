@@ -20,10 +20,6 @@ Overworld based gold farms utilize a mechanic where pigmen spawn inside of nethe
 
 <figure><img src="../.gitbook/assets/overworld1.png" alt=""><figcaption><p>This design uses portals to spawn piglins in the overworld and funnels them to a central killing chamber</p></figcaption></figure>
 
-
-
 {% hint style="info" %}
-## Vanilla+ Specific Changes
-
 On Vanilla+ mobs don’t spawn more than 48 blocks away from the player, this means you need to adjust your afk spot accordingly so it is the correct number of blocks from the nearest spawning platform and 48 from the furthest
 {% endhint %}
