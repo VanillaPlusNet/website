@@ -22,7 +22,7 @@ Many players offer raid farm designs for in-game items, you are welcome to make 
 * Stacking raid farms may or may not work and are **not recommended**, in some cases having a player near the villager will make them work.
 {% endhint %}
 
-### Killing chambers
+### Spawning chambers
 
 This is an example of a killing chamber from a raid farm that works on Vanilla+
 
