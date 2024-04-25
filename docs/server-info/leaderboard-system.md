@@ -4,6 +4,8 @@ description: How the points-on-kill system works, and what you can win from it.
 
 # Leaderboard System
 
+<figure><img src="../.gitbook/assets/324626437-5709df20-4818-4990-90cc-e793150b6bf1.png" alt=""><figcaption></figcaption></figure>
+
 ## Leaderboard rewards
 
 * When the leaderboard resets on the 1st of every month at 4pm EST, the top 3 players will receive 5 days of [Legend Rank](broken-reference).
