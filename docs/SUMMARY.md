@@ -9,6 +9,7 @@
 * [General information](server-info/general-information.md)
 * [Rules](server-info/rules.md)
 * [Vote Rewards](server-info/vote-rewards.md)
+* [Leaderboard System](server-info/leaderboard-system.md)
 * [Optimizing your connection](server-info/optimizing-your-connection.md)
 * [Reporting players](server-info/reporting-players.md)
 * [How to apply for staff](server-info/how-to-apply-for-staff.md)
