@@ -18,6 +18,10 @@ Example:
 
 See page below for list of Color Codes, keep in mind that Formatting Codes are not supported for nicknames.
 
+{% hint style="warning" %}
+\&B, \&C and \&E (Aqua, Red and Yellow) are reserved for staff username coloring, so you will not be able to use those for your username.
+{% endhint %}
+
 {% content-ref url="color-codes.md" %}
 [color-codes.md](color-codes.md)
 {% endcontent-ref %}
