@@ -10,6 +10,7 @@
 * [Rules](server-info/rules.md)
 * [Commands](server-info/commands.md)
 * [Vote Rewards](server-info/vote-rewards.md)
+* [Vote Links](server-info/vote-links.md)
 * [Leaderboard System](server-info/leaderboard-system.md)
 * [Optimizing your connection](server-info/optimizing-your-connection.md)
 * [Reporting players](server-info/reporting-players.md)
