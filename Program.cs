@@ -28,7 +28,7 @@ namespace VanillaPlusWebsite
                     }).AddProcess(
                     ProcessTiming.AfterExecution,
                     _ => new ProcessLauncher("npx", "tailwind", "build",
-                        $"-i {Path.Combine(inputDirectory,"assets", "css", "_site.css")}",
+                        $"-l Debug -i {Path.Combine(inputDirectory,"assets", "css", "_site.css")}",
                         $"-o {Path.Combine(currentDirectory, "output", "styles.css")}")
                     {
                         LogErrors = false,
