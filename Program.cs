@@ -13,7 +13,6 @@ namespace VanillaPlusWebsite
             var currentDirectory = Directory.GetCurrentDirectory();
             var nodeDirectory = Path.Combine(currentDirectory, ".", "node");
             var inputDirectory = Path.Combine(currentDirectory, "input");
-            var outputDirectory = Environment.GetEnvironmentVariable("GITHUB_OUTPUT");
 
             CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
 
@@ -30,7 +29,7 @@ namespace VanillaPlusWebsite
                     ProcessTiming.AfterExecution,
                     _ => new ProcessLauncher("npx", "tailwind", "build",
                         $"-i {Path.Combine(inputDirectory,"assets", "css", "_site.css")}",
-                        $"-o {Path.Combine(outputDirectory, "styles.css")}")
+                        $"-o {Path.Combine(currentDirectory, "output", "styles.css")}")
                     {
                         LogErrors = false,
                         WorkingDirectory = nodeDirectory
