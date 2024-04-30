@@ -13,7 +13,7 @@ namespace VanillaPlusWebsite
             var currentDirectory = Directory.GetCurrentDirectory();
             var nodeDirectory = Path.Combine(currentDirectory, ".", "node");
             var inputDirectory = Path.Combine(currentDirectory, "input");
-            var outputDirectory = Environment.GetEnvironmentVariable("GITHUB_WORKSPACE");
+            var outputDirectory = Environment.GetEnvironmentVariable("GITHUB_OUTPUT");
 
             CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
 
