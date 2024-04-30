@@ -1,0 +1,13 @@
+{
+  "InputPaths": [ "input" ],
+  "SiteTitle": "Vanilla+",
+  "Logo": "/assets/log.png",
+  "MirrorResources": true,
+  "MarkdownExtensions": [ "bootstrap" ],
+  "Host": "tbc.com",
+  "Copyright": "2022 Vanilla+",
+  "IgnoreInvalidXrefs": true,
+  "MakeLinksRootRelative": true,
+  "PublishedUsesLastModified": false,
+  "Layout": "/_Layout.cshtml"
+}

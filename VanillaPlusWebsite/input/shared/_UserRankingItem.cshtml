@@ -1,0 +1,41 @@
+@inherits StatiqRazorPage<VanillaPlusWebsite.Models.UserRanking>
+<div class="flex w-full flex-row gap-4 max-h-[58px] items-center justify-center">
+    <div class="w-[56px] h-[56px] hidden md:block">
+        <img id="@(Model.Rank)head" src="https://mc-heads.net/head/069a79f4-44e9-4726-a5be-fca90e38aaf5" class="h-full" />
+    </div>
+    <div class="bg-[#350943] flex flex-row justify-between h-full items-center w-full">
+        <div class="md:w-1/2 flex items-center justify-center px-5 py-2 @getBackgroundColour() md:w-[103px] min-h-[58px]">
+            <h2 class="Subtitle1">@Model.Rank</h2>
+        </div>
+        <div class="flex justify-left items-center bg-[#350943] h-full px-4 sm:px-10 py-2 min-h-[58px] w-full md:min-w-[200px]">
+            <h2 id="@Model.Rank" class="text-sm md:Subtitle2 md:text-base text-white">USERNAME</h2>
+        </div>
+        <div class="md:w-2/3 bg-blue flex items-center justify-center px-6 py-2 text-nowrap min-h-[58px]">
+            <p id="@(Model.Rank)pts" class="body text-white">POINTS</p>
+        </div>
+    </div>
+</div>
+@{
+    string getBackgroundColour()
+    {
+        switch (Model.Rank)
+        {
+            case 1:
+                {
+                    return "bg-[#FFD700] text-[#000000]";
+                }
+            case 2:
+                {
+                    return "bg-[#EBECEB] text-[#000000]";
+                }
+            case 3:
+                {
+                    return "bg-[#CD7F32] text-[#000000]";
+                }
+            default:
+                {
+                    return "text-white";
+                }
+        }
+    }
+}

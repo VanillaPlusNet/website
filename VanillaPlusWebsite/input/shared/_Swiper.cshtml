@@ -1,0 +1,32 @@
+<div class="w-full flex justify-center items-center bg-[#110316] p-6 md:p-16">
+    <div class="max-w-screen-xl w-full flex overflow-hidden p-2">
+        <div class="Image_swiper flex flex-col gap-8 w-full">
+            <div class="flex flex-col md:flex-row justify-between items-center relative w-full">
+                <div class="flex flex-col gap-1 w-full">
+                    <p class="Headline4 text-[#a636ce]">Pictures</p>
+                    <h4 class="Subheading text-white">Server Photos</h4>
+                </div>
+                <div class="flex flex-row gap-4 justify-end gap-0 relative w-full">
+                    <div class="Image_swiper-button-prev p-1 bg-blue transition-all duration-500 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="30" height="30" class="fill-white">
+                            <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
+                        </svg>
+                    </div>
+                    <div class="Image_swiper-button-next p-1 bg-blue transition-all duration-500 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="30" height="30" fill="#ffffff">
+                            <path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper h-full">
+                @foreach(var photo in Outputs.FromPipeline("Assets").FilterSources("assets/ServerPhotos/*.*"))
+                {
+                    <div class="swiper-slide">
+                        <div class="min-h-[250px] ring-2 ring-blue rounded-lg" style="background: url('@photo.GetLink()'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
