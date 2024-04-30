@@ -3,7 +3,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-    content: ["../VanillaPlusWebsite/**/*.{cshtml,md,html}"],
+    content: ["../input/**/*.{cshtml,md,html}"],
     theme: {
         colors: {
             blue: "#02ACFA",
