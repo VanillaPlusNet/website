@@ -14,6 +14,6 @@ jobs:
         dotnet-version: '3.1.100' # SDK Version to use.
     - name: Set working directory
       run: cd VanillaPlusWebsite
-    - run: dotnet run -- deploy --root VanillaPlusWebsite
+    - run: dotnet run -- deploy --project ./VanillaPlusWebsite.csproj
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
