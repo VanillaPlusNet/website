@@ -1,300 +1,274 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla+</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
-  
-  <style>
-    /* General styles */
-    /* body {
-      font-family: "Segoe UI", sans-serif;
-      font-size: 16px;
-      color: #333;
-    } */
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 36px;
-      text-align: center;
-      margin-top: 0;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-top: 20px;
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    li1:before {
-      content: "\2022";
-      color: #02acfa;
-      font-size: 20px;
-      margin-right: 10px;
-      line-height: 1.5em;
-    }
-
-    /* Specific styles */
-    .rules-section {
-      margin-top: 40px;
-    }
-
-    .minecraft-rules {
-      margin-bottom: 40px;
-    }
-  </style>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/mirror/cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Vanilla+</title>
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="logo"><a href="index.html">Vanilla+</a></div>
-      <label for="menu-toggle" class="icon"><i class="fas fa-bars"></i></label>
-      <!-- <input type="checkbox" id="menu-toggle"> -->
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="rules.html">Rules</a></li>
-        <li><a href="https://store.vanillaplus.net">Store</a></li>
-        <li><a href="https://discord.gg/vanillaplus">Discord</a></li>
-        <li><a href="server-info.html">Server Info</a></li>
-        <li><a href="pack.html">Texture Pack</a></li>
-<li><a href="status.html">Status</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropbtn">Guides <i class="fas fa-chevron-down"></i></a>
-          <div class="dropdown-content">
-            <a href="ip-safety.pdf">IP Safety Guide</a>
-            <a href="gold-farms.html">Gold Farms</a>
-            <a href="raid-farms.html">Raid Farms</a>
-            <a href="ghast-farms.html">Ghast Farms</a>
-            <a href="villagers.html">Villagers</a>
-            
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="main-content">
-    <div class="container">
-      <h2>Rules</h2>
-      <br />
-      <br />
-      <h3>Discord Rules</h3>
-      <br />
-      <ul>
-        <li1>Discord Terms of Service Compliance:</li1><br />
-        <ul>
-          <li1>Adherence to Discord's Terms of Service, available at <a href="https://discord.com/terms" target="_blank">(https://discord.com/terms),</a>
-         is mandatory.</li1><br />
+    <nav class="w-full bg-pink-blue p-4">
+    <div class="max-w-screen-2xl justify-between items-center flex">
+        <div class="flex w-full justify-start md:justify-center items-center">
+            <a href="/" class="Headline2 text-white">VANILLA+</a>
+        </div>
+        <div class="md:hidden flex items-center">
+            <button id="hamburgerBtn" class="text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="24" height="24" class="fill-white">
+                    <path fill-rule="evenodd" d="M0 3.5C0 2.675 0.675 2 1.5 2h17c0.825 0 1.5 0.675 1.5 1.5S19.325 5 18.5 5H1.5C0.675 5 0 4.325 0 3.5zM0 9.5C0 8.675 0.675 8 1.5 8h17c0.825 0 1.5 0.675 1.5 1.5S19.325 11 18.5 11H1.5C0.675 11 0 10.325 0 9.5zM0 15.5C0 14.675 0.675 14 1.5 14h17c0.825 0 1.5 0.675 1.5 1.5S19.325 17 18.5 17H1.5C0.675 17 0 16.325 0 15.5z"></path>
+                </svg>
+            </button>
+        </div>
+        <ul class="hidden md:flex flex-row gap-10 justify-end items-center w-full" id="navLinks">
+            <li><a href="/" class="Button1 text-white hover:underline hover:underline-offset-2 transition-all duration-500">Home</a></li>
+            <li><a href="https://docs.vanillaplus.net/server-info/vote-links" class="Button1 text-white hover:underline hover:underline-offset-2 transition-all duration-500">Voting</a></li>
+            <li><a href="/Rules" class="Button1 text-white hover:underline hover:underline-offset-2 transition-all duration-500">Rules</a></li>
+            <li class="relative">
+                <a href="#" class="Button1 text-white flex flex-row gap-1 items-center" id="otherLink">
+                    Other
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="18" height="19" class="fill-white">
+                        <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+                    </svg>
+                </a>
+                <div id="otherDropdown" class="hidden absolute top-full left-0 mt-4 p-2 w-40 bg-white shadow-lg rounded-lg">
+                    <ul class="p-2 flex flex-col gap-2">
+                            <li><a href="/2fa" class="hover:underline hover:underline-offset-2 transition-all duration-500">2FA</a></li>
+                            <li><a href="/faq" class="hover:underline hover:underline-offset-2 transition-all duration-500">FAQ</a></li>
+                            <li><a href="/privacypolicy" class="hover:underline hover:underline-offset-2 transition-all duration-500">Privacy Policy</a></li>
+                            <li><a href="/tos" class="hover:underline hover:underline-offset-2 transition-all duration-500">TOS</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="px-6 py-2 bg-purple rounded-lg text-white Button1 flex justify-center items-center text-nowrap cursor-pointer hover:bg-pink duration-500 transition-all" onclick="copyLink(this)">Join Us!</a></li>
         </ul>
-        <li1>Spam, self-promotion, or any form of advertisement without prior approval from staff is not allowed.</li1><br />
-        <li1>Content Sharing Guidelines:</li1><br />
-        <ul>
-          <li1>Content or stream sharing is permitted in self-promotion channels; however, the promotion of external servers is not allowed.</li1><br />
-        </ul>
-        <li1>Respect and Inclusion:</li1><br />
-        <ul>
-          <li1>Harassment, sexism, racism, or hate speech, including the use of offensive terms, is not allowed.</li1><br />
-           <li1>Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.</li1><br />
-        </ul>
-        <li1>No NSFW or Disturbing Content:</li1><br />
-        <ul>
-          <li1>Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.</li1><br />
-        </ul>
-        <li1>Respect for Staff:</li1><br />
-        <ul>
-          <li1>Unnecessary pinging of staff members is not allowed.</li1><br />
-        </ul>
-        <li1>Discussion Restrictions:</li1><br />
-        <ul>
-          <li1>Conversations related to DDoSing, Swatting, and Doxing are not allowed.</li1><br />
-        </ul>
-        <li1>Impersonation and Emulation:</li1><br />
-        <ul>
-          <li1>Impersonation of players or staff is not allowed.</li1><br />
-          <li1>Emulation of automated messages is not allowed.</li1><br />
-        </ul>
-        <li1>Unban Requests and Appeals:</li1><br />
-        <ul>
-          <li1>Making appeals on behalf of others or creating tickets to inquire about unbans is not allowed.</li1><br />
-          <li1>Pestering staff regarding unbans is not allowed.</li1><br />
-        </ul>
-        <li1>Mod and Server Advertisement:</li1><br />
-        <ul>
-          <li1>Advertising disallowed mods is not allowed.</li1><br />
-          <li1>Cross-server trading promotion is not allowed.</li1><br />
-        </ul>
-        <li1>Purchase Integrity:</li1><br />
-        <ul>
-          <li1>Charging back purchases is strictly prohibited as per the store's terms and will result in a ban.</li1><br />
-        </ul>
-      </ul>
-      <br />
-      <br />
-<h3>In-Game Rules</h3>
-        <br />
-        <ul>
-          <li1>No Hacking or Cheating:</li1><br />
-          <ul>
-            <li1>Any form of hacking or cheating is not allowed.</li1><br />
-          </ul>
-          <li1>No Duping:</li1><br />
-          <ul>
-            <li1>Exploitation of any duplication glitches is not allowed.</li1><br />
-          </ul>
-          <li1>No Intentional Lag-Causing:</li1><br />
-          <ul>
-            <li1>Intentionally causing server lag is not allowed.</li1><br />
-          </ul>
-          <li1>Seed Protection:</li1><br />
-          <ul>
-            <li1>Obtaining, using, or distributing the server seed is not allowed.</li1><br />
-          </ul>
-          <li1>Bug Abuse Policy:</li1><br />
-          <ul>
-            <li1>Exploiting discovered bugs is not allowed; bugs should be reported.</li1><br />
-          </ul>
-          <li1>IRL Trading Regulations:</li1><br />
-          <ul>
-            <li1>Trading in-game items or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.</li1><br />
-            <li1>Exception: Legend Token Trading (in-game item exchange for Legend Tokens).</li1><br />
-          </ul>
-          <li1>Cross-Server Trading Restrictions:</li1><br />
-          <ul>
-            <li1>Trading Vanilla+ items for items or ranks on Hypixel is not allowed.</li1><br />
-          </ul>
-          <li1>No Public Chat Trading Requests:</li1><br />
-          <ul>
-            <li1>Soliciting trades for items on other servers in public chat is not allowed.</li1><br />
-          </ul>
-          <li1>Glitch Ban Prohibition:</li1><br />
-          <ul>
-            <li1>Exploiting book, chunk, or any other glitches for bans is not allowed.</li1><br />
-          </ul>
-          <li1>Legend Token Scamming:</li1><br />
-          <ul>
-            <li1>Scamming players involving Legend Tokens is not allowed.</li1><br />
-          </ul>
-          <li1>Client Modification Guidelines:</li1><br />
-          <ul>
-            <li1>Deviating from guidelines regarding client modifications is not allowed.</li1><br />
-          </ul>
-          <li1>VR and Anticheat Compatibility:</li1><br />
-          <ul>
-            <li1>Use of VR is not allowed due to potential advantages and anticheat incompatibility.</li1><br />
-          </ul>
-          <li1>VPN and Alt Restrictions:</li1><br />
-          <ul>
-            <li1>Use of VPNs on the server is not allowed to prevent false bans.</li1><br />
-            <li1>Using alt-generating sites is not allowed to prevent false bans.</li1><br />
-          </ul>
-        </ul>      <br />
-      <br />
-      <h3>Account Sharing</h3>
-      <br />
-      <ul>
-        <li1>Ban evasion is not allowed under any circumstances, this includes
-          using the accounts that have been used by banned players. Sharing
-          accounts is strongly discouraged and will most likely result in your
-          account(s) being banned.<br /><br /></li1>
-        <li1><i>Please note that account sharing may become bannable in the
-            future.</i></li1>
-      </ul>
-      <br />
-      <br />
-      <h3>Client Modification Guidelines</h3>
-      <br />
-      <p><i>Allowed Mods:</i></p>
-      <ul>
-        <li1>Performance Mods<br /></li1>
-        <li1>Perspective Mod<br /></li1>
-        <li1>Auto Reconnect<br /></li1>
-        <li1>Freelook, Zoom<br /></li1>
-        <li1>Mini Map (without entities/players)<br /></li1>
-        <li1>Litematica (no easy place/printer)<br /></li1>
-        <li1>Replay Mod<br /></li1>
-        <li1>HUD Mods that do not show unfair information<br /></li1>
-        <ul>
-          <li1>Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints,
-            etc<br /></li1>
-        </ul>
-        <li1>Basic auto-clickers<br /></li1>
-        <ul>
-          <li1>May only be used for farms/afking<br /></li1>
-          <li1>May not be used with your inventory open<br /></li1>
-        </ul>
-        <ul>
-          <li1>Fabric autoclicker may be used if mob mode is disabled<br /></li1>
-        </ul>
-        <li1>Auto Crafting Mods<br /></li1>
-        <ul>
-          <li1>QuickCraft, etc<br /></li1>
-        </ul>
-        <li1>Cosmetics changes<br /></li1>
-        <li1>Totem Pop Counter<br /></li1>
-        <li1>Marlow’s Crystal Optimizer<br /></li1>
-      </ul>
-      <br />
-      <p><i>Disallowed Mods:</i></p>
-      <ul>
-      <li1>Anything that provides a significant advantage over a vanilla
-        player<br /></li1>
-      <li1>VR<br /></li1>
-      <li1>Hacked or Utility Clients<br /></li1>
-      <li1>Seed Cracking Mods<br /></li1>
-      <li1>Health Indicators<br /></li1>
-      <li1>Radar Mods<br /></li1>
-      <li1>Any minimap that displays entities is not allowed<br /></li1>
-      <li1>Any minimap that displays caves is not allowed<br /></li1>
-      <li1>Inventory Organization Mods<br /></li1>
-      <ul>
-        <li1>Anything that moves stuff in your inventory including armor
-          automatically<br /></li1>
-      </ul>
-      <li1>X-Ray<br /></li1>
-      <li1>Baritone<br /></li1>
-      <li1>Freecam<br /></li1>
-      <li1>Macros<br /></li1>
-      <li1>Non vanilla block placement<br /></li1>
-      <li1>No Fog, vanilla no fog is allowed (‘Video Settings’ Press the
-        ‘Details’ tab. Find the ‘Fog’ button and cycle through the options
-        until it is ‘Off’)<br /></li1>
-      <li1>Item Scroller Mod<br /></li1>
-      <li1>EasierVillagerTrading<br /></li1>
-      </ul>
-      <br />
-      <br />
-      <h3>Punishments</h3>
-      <br />
-      <li1>Bans normally start at 7 days but this may vary depending on a number
-        of factors. Ban evading will result in an increased or permanent ban.
-        Mutes will be given by staff depending on the severity of chat
-        violations. Mute evasion will result in an extended mute.<br /></li1>
-      <footer>
-        <br />
-        <br />
-        <center>
-          <p>Copyright © 2023 · Vanilla Plus - All Rights Reserved</p>
-        </center>
-      </footer>
     </div>
-  </section>
-</body>
-<script src="https://vanillaplus.statuspage.io/embed/script.js"></script>
+</nav>
 
-</html>
+<div id="mobileMenu" class="hidden md:hidden bg-pink-blue py-4">
+    <ul class="text-white text-center">
+        <li><a href="/" class="block py-2 border-y border-white">Home</a></li>
+        <li><a href="https://docs.vanillaplus.net/server-info/vote-links" class="block py-2 border-y border-white">Voting</a></li>
+        <li><a href="/Rules" class="block py-2 border-y border-white">Rules</a></li>
+        <li class="relative">
+            <a href="#" class="block py-2 border-y border-white" id="mobileOtherLink">
+                Other
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="18" height="19" class="fill-white inline-block ml-1">
+                    <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+                </svg>
+            </a>
+            <div id="mobileOtherDropdown" class="hidden w-full h-full flex flex-col">
+                <ul class="w-full">
+                        <li><a href="/2fa">2FA</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/privacypolicy">Privacy Policy</a></li>
+                        <li><a href="/tos">TOS</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<script src="assets/js/navbar.js"></script>
+            <div class="bg-[url('/assets/Images/Header.png')] bg-cover w-full flex justify-start items-center bg-center bg-no-repeat py-16 min-h-[300px]">
+                <div class="bg-[#110316] flex justify-center px-12 md:px-32 py-4 items-center text-white rounded-r-xl Subheading">
+                    Rules
+                </div>
+            </div>
+            <div class="w-full h-full bg-[#110316] flex justify-center items-center p-6 md:p-16">
+                <div class="w-full max-w-screen-xl flex justify-center items-center">
+                    <div>
+
+                    </div>
+                    <div class="prose text-white prose-headings:text-white prose-a:text-white md:prose-lg prose-blockquote:text-white prose-figure:text-white prose-figcaption:text-white prose-strong:text-white">
+                        <h1 id="rules">Rules</h1>
+<h2 id="discord-rules">Discord Rules</h2>
+<h3 id="discord-terms-of-service-compliance">Discord Terms of Service Compliance</h3>
+<ul>
+<li>Adherence to Discord's Terms of Service, available at <a href="https://discord.com/terms">(https://discord.com/terms),</a> is mandatory.</li>
+</ul>
+<h3 id="content-sharing-guidelines">Content Sharing Guidelines</h3>
+<ul>
+<li>Content or stream sharing is permitted in self-promotion channels; however, the promotion of external servers is not allowed.</li>
+</ul>
+<h3 id="respect-and-inclusion">Respect and Inclusion</h3>
+<ul>
+<li>Harassment, sexism, racism, or hate speech, including the use of offensive terms, is not allowed.</li>
+<li>Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.\</li>
+</ul>
+<h3 id="no-nsfw-or-disturbing-content">No NSFW or Disturbing Content</h3>
+<ul>
+<li>Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.\</li>
+</ul>
+<h3 id="respect-for-staff">Respect for Staff</h3>
+<ul>
+<li>Unnecessary pinging of staff members is not allowed.\</li>
+</ul>
+<h3 id="discussion-restrictions">Discussion Restrictions</h3>
+<ul>
+<li>Conversations related to DDoSing, Swatting, and Doxing are not allowed.\</li>
+</ul>
+<h3 id="impersonation-and-emulation">Impersonation and Emulation</h3>
+<ul>
+<li>Impersonation of players or staff is not allowed.<br>
+Emulation of automated messages is not allowed.\</li>
+</ul>
+<h3 id="unban-requests-and-appeals">Unban Requests and Appeals</h3>
+<ul>
+<li>Making appeals on behalf of others or creating tickets to inquire about unbans is not allowed.</li>
+<li>Pestering staff regarding unbans is not allowed.\</li>
+</ul>
+<h3 id="mod-and-server-advertisement">Mod and Server Advertisement</h3>
+<ul>
+<li>Advertising disallowed mods is not allowed.</li>
+<li>Cross-server trading promotion is not allowed.</li>
+</ul>
+<h2 id="in-game-rules">In-Game Rules</h2>
+<h3 id="no-hacking-or-cheating">No Hacking or Cheating</h3>
+<ul>
+<li>Any form of hacking or cheating is not allowed.</li>
+</ul>
+<h3 id="no-duping">No Duping</h3>
+<ul>
+<li>Exploitation of any duplication glitches is not allowed.</li>
+</ul>
+<h3 id="no-intentional-lag-causing">No Intentional Lag-Causing</h3>
+<ul>
+<li>Intentionally causing server lag is not allowed.</li>
+</ul>
+<h3 id="seed-protection">Seed Protection</h3>
+<ul>
+<li>Obtaining, using, or distributing the server seed is not allowed.</li>
+</ul>
+<h3 id="bug-abuse-policy">Bug Abuse Policy</h3>
+<ul>
+<li>Exploiting discovered bugs is not allowed; bugs should be reported.</li>
+</ul>
+<h3 id="irl-trading-regulations">IRL Trading Regulations</h3>
+<ul>
+<li>Trading in-game items or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.</li>
+<li>Exception: Legend Token Trading (in-game item exchange for Legend Tokens).</li>
+</ul>
+<h3 id="cross-server-trading-restrictions">Cross-Server Trading Restrictions</h3>
+<ul>
+<li>Trading Vanilla+ items for items or ranks on Hypixel is not allowed.</li>
+<li>Advertising trades for items on other servers in public chat is not allowed.</li>
+</ul>
+<h3 id="legend-token-scamming">Legend Token Scamming</h3>
+<ul>
+<li>Scamming players involving Legend Tokens is not allowed.</li>
+</ul>
+<h3 id="client-modification-guidelines">Client Modification Guidelines</h3>
+<ul>
+<li>Deviating from guidelines regarding client modifications is not allowed.</li>
+</ul>
+<h3 id="vr-and-anticheat-compatibility">VR and Anticheat Compatibility</h3>
+<ul>
+<li>Use of VR is not allowed due to potential advantages and anticheat incompatibility.</li>
+</ul>
+<h3 id="vpn-and-alt-restrictions">VPN and Alt Restrictions</h3>
+<ul>
+<li>Use of VPNs on the server is not allowed to prevent false bans.</li>
+<li>Using alt-generating sites is not allowed to prevent false bans.</li>
+</ul>
+<h2 id="account-sharing">Account Sharing</h2>
+<ul>
+<li>Ban evasion is not allowed under any circumstances, this includes using the accounts that have been used by banned players. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.<br>
+<br>
+<em>Please note that account sharing may become bannable in the future.</em></li>
+</ul>
+<h2 id="client-modification-guidelines-1">Client Modification Guidelines</h2>
+<h3 id="allowed-mods">Allowed Mods:</h3>
+<ul>
+<li>Performance Mods</li>
+<li>Perspective Mod</li>
+<li>Auto Reconnect</li>
+<li>Freelook, Zoom</li>
+<li>Mini Map (without entities/players)</li>
+<li>Litematica (no easy place/printer)</li>
+<li>Replay Mod</li>
+<li>HUD Mods that do not show unfair information
+<ul>
+<li>Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.</li>
+</ul>
+</li>
+</ul>
+<h3 id="disallowed-mods">Disallowed Mods:</h3>
+<ul>
+<li>Anything that provides a significant advantage over a vanilla player</li>
+<li>VR</li>
+<li>Hacked or Utility Clients</li>
+<li>Seed Cracking Mods</li>
+<li>Health Indicators</li>
+<li>Radar Mods</li>
+<li>Any minimap that displays entities is not allowed</li>
+<li>Any minimap that displays caves is not allowed</li>
+<li>Inventory Organization Mods
+<ul>
+<li>Anything that moves stuff in your inventory including armor automatically</li>
+</ul>
+</li>
+<li>X-Ray</li>
+<li>Baritone</li>
+<li>Freecam</li>
+<li>Macros</li>
+<li>Non-vanilla block placement</li>
+<li>No Fog, vanilla no fog is allowed (�Video Settings� Press the �Details� tab. Find the �Fog� button and cycle through the options until it is �Off�)</li>
+<li>Item Scroller Mod</li>
+<li>EasierVillagerTrading</li>
+</ul>
+<h2 id="punishments">Punishments</h2>
+<p>Bans normally start at 7 days but this may vary depending on a number of factors. Ban evading will result in an increased or permanent ban. Mutes will be given by staff depending on the severity of chat violations. Mute evasion will result in an extended mute.</p>
+
+                    </div>
+                </div>
+            </div>
+    <div class="bg-[url('/assets/Images/discord.png')] bg-cover w-full flex justify-center items-center bg-cover bg-no-repeat min-h-[425px]">
+    <div class="max-w-screen-xl w-full items-center justify-left p-14">
+        <div class="flex flex-col gap-4 w-full md:w-1/2">
+            <h1 class="Headline1 text-white">Check-Out Our<br>Discord Server</h1>
+            <p class="text-white Subtitle1 w-4/5">
+                Lorem ipsum dolor sit amet. Id earum reiciendis id numquam doloribus qui amet voluptatem et repudiandae.
+            </p>
+            <div class="flex flex-row gap-5">
+                <a href="https://discord.gg/vanillaplus" class="Button1 text-white bg-purple flex justify-center items-center px-8 py-2 rounded-lg hover:bg-pink duration-500 transition-all">
+                    Click Here
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="w-full flex flex-col justify-center items-center bg-purple">
+    <div class="w-full flex flex-col md:flex-row justify-between items-center max-w-screen-xl p-16 gap-16">
+        <div class="flex flex-col justify-center gap-4 w-full">
+            <h1 class="Headline1 text-white">Vanilla+</h1>
+            <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer egestas vel tortor eget auctor. Nam consequat, 
+                nunc sit amet dapibus bibendum, ex erat varius erat, in placerat
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-10 justify-center w-full">
+            <div class="flex flex-col gap-3">
+                <h2 class="Subheading text-white capitalize">Information</h2>
+                <a href="https://docs.vanillaplus.net/server-info/general-information" class="text-white Subtitle2 opacity-80">About</a>
+                <a href="/rules" class="text-white Subtitle2 opacity-80">Rules</a>
+                <a href="https://docs.vanillaplus.net/server-info/vote-links" class="text-white Subtitle2 opacity-80">Voting</a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h2 class="Subheading text-white capitalize">Legal</h2>
+                <a href="/FAQ" class="text-white Subtitle2 opacity-80">FAQ</a>
+                <a href="/TOS" class="text-white Subtitle2 opacity-80">TOS</a>
+                <a href="/PrivacyPolicy" class="text-white Subtitle2 opacity-80">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#8b22b1] w-full flex justify-center items-center p-2">
+        <div class="max-w-screen-xl flex justify-center items-center w-full">
+            <h3 class="text-white opacity-50">Copyright &copy; 2022 Vanilla+. All Rights Reserved.</h3>
+        </div>
+    </div>
+</div>
+
+<script src="/mirror/cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/js/Swiper.js"></script>
+
+</body></html>
