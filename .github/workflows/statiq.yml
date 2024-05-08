@@ -11,13 +11,16 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+        with:
+          path: website
+          submodules: recursive
 
-      - name: Set up .NET Core
+      - name: Install .NET Core SDK
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 5.0.102 # replace with your .NET version
-
-      - name: Build and deploy Statiq site
-        uses: VanillaPlusNet/website@dev
-        with:
-          args: build --deploy --deployBranchName "gh-pages" --deployPersonalAccessToken ${{ secrets.GITHUB_TOKEN }}        
+          dotnet-version: |
+            3.1.x
+            6.0.x
+      - run: dotnet run -- deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
