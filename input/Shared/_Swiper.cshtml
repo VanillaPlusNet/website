@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="swiper-wrapper h-full">
-                @foreach(var photo in Outputs.FromPipeline("Assets").FilterSources("assets/ServerPhotos/*.*"))
+                @foreach(var photo in Outputs.FromPipeline("Assets").FilterSources("./assets/ServerPhotos/*.*"))
                 {
                     <div class="swiper-slide">
                         <div class="min-h-[250px] ring-2 ring-blue rounded-lg" style="background: url('@photo.GetLink()'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
