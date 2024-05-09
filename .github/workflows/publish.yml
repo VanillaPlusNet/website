@@ -46,7 +46,7 @@ jobs:
         run: dotnet run
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           # Upload output only
           path: './output'
