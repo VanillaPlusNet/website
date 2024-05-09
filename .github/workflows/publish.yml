@@ -41,6 +41,9 @@ jobs:
       - name: Install NPM packages
         run: npm install
 
+      - name: List files in specific directory (debug)
+        run: ls -lah ~/input/shared && ls ./ && ls ./input/shared && ls ~/
+      
       - name: Build Website
         run: dotnet run  # Make sure this command also triggers your Tailwind build process
 
