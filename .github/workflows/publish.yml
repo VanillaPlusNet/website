@@ -40,9 +40,6 @@ jobs:
 
       - name: Install NPM packages
         run: npm install
-
-      - name: List files (debug)
-        run: ls -R
       
       - name: Build Website
         run: dotnet run  # Make sure this command also triggers your Tailwind build process
