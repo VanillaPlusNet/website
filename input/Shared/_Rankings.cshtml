@@ -1,0 +1,51 @@
+<div class="bg-[#110316] min-h-[1200px] flex w-full p-6 md:p-16 justify-center items-center" style="background-image: url('/assets/Images/Smoke.png'); background-size: auto; background-repeat: no-repeat; background-position: bottom left;">
+    <div class="max-w-screen-xl flex w-full flex-col md:flex-row justify-center gap-6">
+        <div class="flex flex-col gap-4 w-full items-start justify-start">
+            <h4 class="text-purple Subheading">Rankings</h4>
+            <h2 class="text-white Headline2">Community </br> Rankings</h2>
+            <p class="body text-white">Lorem ipsum dolor sit amet. Id earum reiciendis id numquam.</p>
+        </div>
+        <div class="flex flex-col gap-8">
+            <div id="top10" class="h-full flex flex-col gap-4 w-full">
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 1 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 2 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 3 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 4 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 5 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 6 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 7 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 8 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 9 })
+                @await Html.PartialAsync("_UserRankingItem", new UserRanking { UUID = "c5ef3347-4593-4f39-8bb1-2eaa40dd986e", Points = 0, Rank = 10 })
+                <div id="playerSearchItem" class="h-full flex flex-col gap-4 hidden w-full">
+                    <div class="flex w-full flex-row gap-4 max-h-[58px] items-center justify-center">
+                        <div class="w-[56px] h-[56px] hidden md:block">
+                            <img id="playerSearchHead" src="https://mc-heads.net/head/069a79f4-44e9-4726-a5be-fca90e38aaf5" class="h-full" />
+                        </div>
+                        <div class="bg-[#350943] flex flex-row justify-between h-full items-center w-full">
+                            <div class="md:w-1/2 flex items-center justify-center px-3 py-2 md:w-[103px] min-h-[58px]">
+                                <h2 class="Subtitle1 text-white" id="playerSearchRank"></h2>
+                            </div>
+                            <div class="flex justify-left items-center bg-[#350943] h-full px-4 sm:px-10 py-2 min-h-[58px] w-full md:min-w-[200px]">
+                                <h2 id="playerSearchName" class="text-sm md:Subtitle2 md:text-base text-white">USERNAME</h2>
+                            </div>
+                            <div class="md:w-2/3 bg-blue flex items-center justify-center px-6 py-2 text-nowrap min-h-[58px]">
+                                <p id="playerSearchpts" class="body text-white">POINTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p id="errormsg" class="text-[#ff0000] hidden">Player not found</p>
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4 w-full">
+                    <input id="playerSearch" class="text-white w-full bg-[#110316] px-3 mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" name="PlayerSearch" type="text" placeholder="Player Search..." />
+                    <button class="px-8 py-2 flex justify-center items-center text-white bg-transparent border border-white rounded-lg hover:bg-white hover:text-[#110316] transition-all duration-500" onclick="individualSearch()">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/app.js"></script>

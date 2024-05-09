@@ -1,0 +1,64 @@
+<div class="bg-[url('/assets/Images/herobg.png')] bg-cover w-full flex justify-center items-center bg-center bg-no-repeat min-h-[700px]">
+    <div class="max-w-screen-xl w-full items-center justify-left p-6 md:p-14">
+        <div class="flex flex-col gap-4 w-full md:w-1/2">
+            <h1 class="Headline1 text-md md:text-4xl text-white hidden md:block">Join Us And Let</br>The Adventures Begin!</h1>
+            <h1 class="Headline1 text-md md:text-4xl text-white md:hidden">Join Us And Let The Adventures Begin!</h1>
+            <p class="text-white Subtitle1 w-4/5">
+                Lorem ipsum dolor sit amet. Id earum reiciendis id numquam doloribus qui amet voluptatem et repudiandae.
+            </p>
+            <div class="flex flex-row gap-5">
+                <a href="https://discord.gg/vanillaplus" class="Button1 text-white bg-purple flex justify-center items-center px-8 py-2 rounded-lg hover:bg-pink duration-500 transition-all">
+                    Join Us!
+                </a>
+                <a href="/rules" class="Button1 text-white gap-2 flex justify-center items-center px-8 py-2 hover:underline hover:underline-offset-2 transition-all duration-500">
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="24" height="25" fill="#ffffff">
+                        <!--!Font Awesome Free 6.5.2 by @@fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="flex flex-row gap-2 items-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_51_29)">
+                        <circle cx="10" cy="10" r="6.5" stroke="#D101D1" shape-rendering="crispEdges" />
+                    </g>
+                    <circle cx="10" cy="10" r="4.5" stroke="#D101D1" />
+                    <circle cx="10" cy="10" r="2" fill="#A636CE" />
+                    <defs>
+                        <filter id="filter0_d_51_29" x="0" y="0" width="20" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_51_29" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="1" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.65098 0 0 0 0 0.211765 0 0 0 0 0.807843 0 0 0 1 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_51_29" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_51_29" result="shape" />
+                        </filter>
+                    </defs>
+                </svg>
+
+                <p id="PlayerNumbers" class="Subtitle1 text-white opacity-85">
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    fetch('https://eu.mc-api.net/v3/server/ping/vanillaplus.net')
+        .then(response => response.json())
+        .then(data => {
+            if (data.players) {
+                const element = document.getElementById("PlayerNumbers");
+                element.innerHTML = "Players Online: " + data.players.online;
+            } else {
+                console.log("No player data available.");
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+</script>
