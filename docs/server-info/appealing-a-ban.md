@@ -1,3 +1,9 @@
+---
+Title: "Appeal"
+MarkdownFile: true
+OtherFolder: true
+---
+
 # Appealing a ban
 
 ## Discord bans
