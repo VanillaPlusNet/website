@@ -43,9 +43,9 @@ function copyLink(element) {
 
     navigator.clipboard.writeText(linkValue)
         .then(function () {
-            element.innerText = "Link copied";
+            element.innerText = "Copied to clipboard!";
             setTimeout(function () {
-                element.innerText = "Join Us!";
+                element.innerText = "play.vanillaplus.net";
             }, 5000);
         })
         .catch(function (error) {
