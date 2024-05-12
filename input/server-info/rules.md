@@ -2,6 +2,7 @@
 Title: "Rules"
 MarkdownFile: true
 OtherFolder: false
+RedirectFrom: ./rules
 ---
 # Rules
 
