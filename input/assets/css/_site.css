@@ -2,22 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
+@font-face {
     font-family: 'Outfit';
-    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    src: url('/assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/assets/fonts/syncopate-bold.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal; 
+}
+
+.Logo {
+    font-size: 35px;
+    font-family: "Syncopate", sans-serif;
+    font-weight: bold;
 }
 
 .Headline1 {
     font-size: 50px;
     font-family: "Outfit", sans-serif;
     font-weight: bold;
-    letter-spacing: -2px;
+
 }
 
 .Headline2 {
     font-family: "Outfit", sans-serif;
     font-weight: bold;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
     font-size: 35px;
 }
 
