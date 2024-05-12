@@ -5,7 +5,7 @@
   "MirrorResources": true,
   "MarkdownExtensions": [ "bootstrap" ],
   "Host": "tbc.com",
-  "Copyright": "2022 Vanilla+",
+  "Copyright": "2024 Vanilla+",
   "IgnoreInvalidXrefs": true,
   "MakeLinksRootRelative": true,
   "PublishedUsesLastModified": false,
