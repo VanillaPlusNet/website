@@ -1,5 +1,7 @@
 ---
-description: How to enable and use 2 factor authentication.
+Title: 2FA
+MarkdownFile: true
+OtherFolder: true
 ---
 
 # 2FA

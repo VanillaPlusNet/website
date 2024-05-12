@@ -1,3 +1,8 @@
+---
+Title: Color Codes
+MarkdownFile: true
+OtherFolder: true
+---
 # Color codes
 
 ## Colour Codes

@@ -1,5 +1,7 @@
 ---
-description: How the points-on-kill system works, and what you can win from it.
+Title: Leaderboard
+MarkdownFile: true
+OtherFolder: true
 ---
 
 # Leaderboard System
