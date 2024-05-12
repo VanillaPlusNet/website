@@ -1,3 +1,8 @@
+---
+Title: "Rules"
+MarkdownFile: true
+OtherFolder: false
+---
 # Rules
 
 ## Discord Rules
