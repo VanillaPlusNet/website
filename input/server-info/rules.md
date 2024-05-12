@@ -1,8 +1,3 @@
----
-Title: "Rules"
-MarkdownFile: true
-OtherFolder: false
----
 # Rules
 
 ## Discord Rules
@@ -139,7 +134,7 @@ OtherFolder: false
 * Freecam
 * Macros
 * Non-vanilla block placement
-* No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
+* No Fog, vanilla no fog is allowed (â€˜Video Settingsâ€™ Press the â€˜Detailsâ€™ tab. Find the â€˜Fogâ€™ button and cycle through the options until it is â€˜Offâ€™)
 * Item Scroller Mod
 * EasierVillagerTrading
 * NoMoreUselessKeys (NMUK)
