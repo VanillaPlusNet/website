@@ -1,0 +1,149 @@
+---
+Title: "Rules"
+MarkdownFile: true
+OtherFolder: false
+---
+# Rules
+
+## Discord Rules
+
+### Discord Terms of Service Compliance
+
+* Adherence to Discord's Terms of Service, available at [(https://discord.com/terms),](https://discord.com/terms) is mandatory.
+
+### Content Sharing Guidelines
+
+* Content or stream sharing is permitted in self-promotion channels; however, the promotion of external servers is not allowed.
+
+### Respect and Inclusion
+
+* Harassment, sexism, racism, or hate speech, including the use of offensive terms, is not allowed.
+* Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.\
+
+
+### No NSFW or Disturbing Content
+
+* Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.\
+
+
+### Respect for Staff
+
+* Unnecessary pinging of staff members is not allowed.\
+
+
+### Discussion Restrictions
+
+* Conversations related to DDoSing, Swatting, and Doxing are not allowed.\
+
+
+### Impersonation and Emulation
+
+* Impersonation of players or staff is not allowed.\
+  Emulation of automated messages is not allowed.\
+
+
+### Unban Requests and Appeals
+
+* Making appeals on behalf of others or creating tickets to inquire about unbans is not allowed.
+* Pestering staff regarding unbans is not allowed.\
+
+
+### Mod and Server Advertisement
+
+* Advertising disallowed mods is not allowed.
+* Cross-server trading promotion is not allowed.
+
+## In-Game Rules
+
+### No Hacking or Cheating
+
+* Any form of hacking or cheating is not allowed.
+
+### No Duping
+
+* Exploitation of any duplication glitches is not allowed.
+
+### No Intentional Lag-Causing
+
+* Intentionally causing server lag is not allowed.
+
+### Seed Protection
+
+* Obtaining, using, or distributing the server seed is not allowed.
+
+### Bug Abuse Policy
+
+* Exploiting discovered bugs is not allowed; bugs should be reported.
+
+### IRL Trading Regulations
+
+* Trading in-game items or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.
+* Exception: Legend Token Trading (in-game item exchange for Legend Tokens).
+
+### Cross-Server Trading Restrictions
+
+* Trading Vanilla+ items for items or ranks on Hypixel is not allowed.
+* Advertising trades for items on other servers in public chat is not allowed.
+
+### Legend Token Scamming
+
+* Scamming players involving Legend Tokens is not allowed.
+
+### Client Modification Guidelines
+
+* Deviating from guidelines regarding client modifications is not allowed.
+
+### VR and Anticheat Compatibility
+
+* Use of VR is not allowed due to potential advantages and anticheat incompatibility.
+
+### VPN and Alt Restrictions
+
+* Use of VPNs on the server is not allowed to prevent false bans.
+* Using alt-generating sites is not allowed to prevent false bans.
+
+## Account Sharing
+
+* Ban evasion is not allowed under any circumstances, this includes using the accounts that have been used by banned players. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.\
+  \
+  _Please note that account sharing may become bannable in the future._
+
+## Client Modification Guidelines
+
+### Allowed Mods:
+
+* Performance Mods
+* Perspective Mod
+* Auto Reconnect
+* Freelook, Zoom
+* Mini Map (without entities/players)
+* Litematica (no easy place/printer)
+* Replay Mod
+* HUD Mods that do not show unfair information
+  * Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.
+
+### Disallowed Mods:
+
+* Anything that provides a significant advantage over a vanilla player
+* VR
+* Hacked or Utility Clients
+* Seed Cracking Mods
+* Health Indicators
+* Radar Mods
+* Any minimap that displays entities is not allowed
+* Any minimap that displays caves is not allowed
+* Inventory Organization Mods
+  * Anything that moves stuff in your inventory including armor automatically
+* X-Ray
+* Baritone
+* Freecam
+* Macros
+* Non-vanilla block placement
+* No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
+* Item Scroller Mod
+* EasierVillagerTrading
+* NoMoreUselessKeys (NMUK)
+
+## Punishments
+
+Bans normally start at 7 days but this may vary depending on a number of factors. Ban evading will result in an increased or permanent ban. Mutes will be given by staff depending on the severity of chat violations. Mute evasion will result in an extended mute.
