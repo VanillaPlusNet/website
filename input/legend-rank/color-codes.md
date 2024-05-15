@@ -5,6 +5,9 @@ OtherFolder: true
 ---
 # Color Codes
 
+## Color Codes
+Add these codes in front of your chat message to color the message.
+
 * &0 - Black
 * &1 - Dark Blue
 * &2 - Dark Green
@@ -23,6 +26,7 @@ OtherFolder: true
 * &f - White
 
 ## Formatting Codes
+Add these codes in front of your chat message to add an effect to the message.
 
 * &m - Strikethrough
 * &n - Underline
