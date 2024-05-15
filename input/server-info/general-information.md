@@ -1,13 +1,13 @@
 ---
 description: >-
-  Vanilla+ is SMP designed around making survival minecraft better, with homes
-  teams and a combat log to make pvp more fair, its simply better survival.
+  Vanilla+ is SMP designed around making survival Minecraft better, with homes
+  teams and a combat log to make PVP more fair, it's simply better survival.
   Here’s some information about the server:
 ---
 
-# General information
+# General Information
 
-* IP: `play.vanillaplus.net`
+* IP: play.vanillaplus.net
 * Difficulty: **Hard**
 * Worldborders:
   * Overworld: **200,000**
