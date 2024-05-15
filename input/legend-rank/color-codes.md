@@ -3,31 +3,29 @@ Title: Color Codes
 MarkdownFile: true
 OtherFolder: true
 ---
-# Color codes
+# Color Codes
 
-## Colour Codes
-
-* `&0` - Black
-* `&1` - Dark Blue
-* `&2` - Dark Green
-* `&3` - Dark Aqua
-* `&4` - Dark Red
-* `&5` - Dark Purple
-* `&6` - Gold
-* `&7` - Gray
-* `&8` - Dark Gray
-* `&9` - Blue
-* `&A` - Green
-* `&B` - Aqua
-* `&C` - Red
-* `&D` - Light Purple
-* `&E` - Yellow
-* `&F` - White
+* &0 - Black
+* &1 - Dark Blue
+* &2 - Dark Green
+* &3 - Dark Aqua
+* &4 - Dark Red
+* &5 - Dark Purple
+* &6 - Gold
+* &7 - Gray
+* &8 - Dark Gray
+* &9 - Blue
+* &a - Green
+* &b - Aqua
+* &c - Red
+* &d - Light Purple
+* &e - Yellow
+* &f - White
 
 ## Formatting Codes
 
-* `&M` - Strikethrough
-* `&N` - Underline
-* `&L` - Bold
-* `&K` - Random
-* `&0` - Italic
+* &m - Strikethrough
+* &n - Underline
+* &l - Bold
+* &k - Random
+* &o - Italic
