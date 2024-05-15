@@ -7,6 +7,7 @@ OtherFolder: true
 # Leaderboard System
 
 <figure><img src="../.gitbook/assets/324626437-5709df20-4818-4990-90cc-e793150b6bf1.png" alt=""><figcaption></figcaption></figure>
+Earn points by killing players. Each kill gives 100 base points, with extra points for the armor the player was wearing and the armor enchantments.
 
 ## Leaderboard rewards
 
