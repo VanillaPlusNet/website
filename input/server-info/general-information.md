@@ -6,7 +6,7 @@ OtherFolder: true
 
 # General Information
 
-* IP: play.vanillaplus.net
+* IP: **play.vanillaplus.net**
 * Difficulty: **Hard**
 * Worldborders:
   * Overworld: **200,000**
