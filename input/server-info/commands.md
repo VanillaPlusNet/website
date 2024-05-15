@@ -8,7 +8,6 @@ description: See all of the available in-game commands and what they do.
 /delhome: Deletes a previously set home location.
 /rules: Displays the server's rules.
 /points: Shows how many points you have earned from kills.
-/logout: Logs you out of the server.
 /balance: Another command to display your current in-game currency.
 /sethome: Sets a home location that you can teleport back to.
 /homes: Lists all your set home locations.
