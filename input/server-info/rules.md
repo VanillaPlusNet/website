@@ -1,9 +1,10 @@
 ---
-Title: "Rules"
+Title: Rules
 MarkdownFile: true
 OtherFolder: false
 RedirectFrom: ./rules
 ---
+
 # Rules
 
 ## Discord Rules
@@ -19,35 +20,29 @@ RedirectFrom: ./rules
 ### Respect and Inclusion
 
 * Harassment, sexism, racism, or hate speech, including the use of offensive terms, is not allowed.
-* Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.\
-
+* Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.\\
 
 ### No NSFW or Disturbing Content
 
-* Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.\
-
+* Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.\\
 
 ### Respect for Staff
 
-* Unnecessary pinging of staff members is not allowed.\
-
+* Unnecessary pinging of staff members is not allowed.\\
 
 ### Discussion Restrictions
 
-* Conversations related to DDoSing, Swatting, and Doxing are not allowed.\
-
+* Conversations related to DDoSing, Swatting, and Doxing are not allowed.\\
 
 ### Impersonation and Emulation
 
 * Impersonation of players or staff is not allowed.\
-  Emulation of automated messages is not allowed.\
-
+  Emulation of automated messages is not allowed.\\
 
 ### Unban Requests and Appeals
 
 * Making appeals on behalf of others or creating tickets to inquire about unbans is not allowed.
-* Pestering staff regarding unbans is not allowed.\
-
+* Pestering staff regarding unbans is not allowed.\\
 
 ### Mod and Server Advertisement
 
@@ -78,7 +73,7 @@ RedirectFrom: ./rules
 
 ### IRL Trading Regulations
 
-* Trading in-game items or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.
+* Trading anything in-game or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.
 * Exception: Legend Token Trading (in-game item exchange for Legend Tokens).
 
 ### Cross-Server Trading Restrictions
