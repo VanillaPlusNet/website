@@ -8,11 +8,11 @@ description: Utilize one of our global proxies to get the best ping to Vanilla+.
 
 **`vanillaplus.net` and all others** - Global (Cloudflare)
 
-**`route2.vanillaplus.net`** - United Kingdom (Global Secure Layer)
+**`route2.vanillaplus.net`** - Global (Global Secure Layer) \[Alternative to Route 4]
 
-**`route3.vanillaplus.net`** - France (OVH)
+**`route3.vanillaplus.net`** - Frankfurt (OVH) \[Targeted towards EU players, works well for players in Germany]
 
-**`route4.vanillaplus.net`** - United States (Global Secure Layer)&#x20;
+**`route4.vanillaplus.net`** - Global (Global Secure Layer) \[Works well globally, prefered route by players, works well for players in the UK]
 
 ***
 
