@@ -18,3 +18,14 @@ C: Remove some useless mobs entirely.
 
 {% embed url="https://www.youtube.com/watch?v=Yoh0Tnt48js" %}
 
+### Why is my raid farm not working?
+
+* Make sure to check **ALL** Redstone
+* Check the y levels and sub-coordinates for villagers
+* Check the hopper clock
+* Check the general timings (redstone)
+* Check the spawning platform (nothing should be in the way vertically)
+* Make sure you're using a NON KB sword
+* Make sure your composters for the villagers are correct so one is higher than the other
+* Make sure there's no nitwit villagers (ones with green robes)
+* **Make sure to break all temporary blocks once you have finished building the farm**
