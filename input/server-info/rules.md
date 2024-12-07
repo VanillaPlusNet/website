@@ -7,7 +7,7 @@ RedirectFrom: ./rules
 
 # Rules
 
-## Discord Rules
+## Discord / Chat Rules
 
 ### Discord Terms of Service Compliance
 
@@ -20,29 +20,30 @@ RedirectFrom: ./rules
 ### Respect and Inclusion
 
 * Harassment, sexism, racism, or hate speech, including the use of offensive terms, is not allowed.
-* Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.\\
+* Cyberbullying, self-harm encouragement, harassment, DDoSing, Swatting, Doxxing, or threats will not be tolerated.
+  * In the interest of player safety, we will sometimes ban players who breach this rule on platforms outside of the Vanilla+.
 
 ### No NSFW or Disturbing Content
 
-* Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.\\
+* Sharing explicit or disturbing text, images, or links covering nudity, sex, violence, racism, homophobia, or any graphically offensive material is not allowed.
 
 ### Respect for Staff
 
-* Unnecessary pinging of staff members is not allowed.\\
+* Unnecessary pinging of staff members is not allowed.
 
 ### Discussion Restrictions
 
-* Conversations related to DDoSing, Swatting, and Doxing are not allowed.\\
+* Conversations related to DDoSing, Swatting, and Doxing are not allowed.
 
 ### Impersonation and Emulation
 
 * Impersonation of players or staff is not allowed.\
-  Emulation of automated messages is not allowed.\\
+  Emulation of automated messages is not allowed.
 
 ### Unban Requests and Appeals
 
 * Making appeals on behalf of others or creating tickets to inquire about unbans is not allowed.
-* Pestering staff regarding unbans is not allowed.\\
+* Pestering staff regarding unbans is not allowed.
 
 ### Mod and Server Advertisement
 
@@ -102,7 +103,7 @@ RedirectFrom: ./rules
 
 * Ban evasion is not allowed under any circumstances, this includes using the accounts that have been used by banned players. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.\
   \
-  _Please note that account sharing may become bannable in the future._
+  &#xNAN;_&#x50;lease note that account sharing may become bannable in the future._
 
 ## Client Modification Guidelines
 
