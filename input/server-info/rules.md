@@ -37,8 +37,8 @@ RedirectFrom: ./rules
 
 ### Impersonation and Emulation
 
-* Impersonation of players or staff is not allowed.\
-  Emulation of automated messages is not allowed.
+* Impersonation of players or staff is not allowed.
+* Emulation of automated messages is not allowed.
 
 ### Unban Requests and Appeals
 
