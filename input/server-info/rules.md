@@ -75,7 +75,7 @@ RedirectFrom: ./rules
 ### IRL Trading Regulations
 
 * Trading anything in-game or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.
-* Being a member of a Discord server engaging in advertising and being dedicated to IRL trading will lead to a ban. We do not tolerate any Discord server being involved, advertising, engaging, or devoted to IRL Trading.
+* Joining a Discord server that advertises or is dedicated to IRL trading will result in a ban. We do not tolerate any Discord server that is involved in, advertising, engaging in, or devoted to IRL Trading.
 * Exception: Legend Token Trading (in-game item exchange for Legend Tokens).
 
 ### Cross-Server Trading Restrictions
