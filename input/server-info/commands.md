@@ -44,4 +44,5 @@ description: See all of the available in-game commands and what they do.
 /trade: Initiates a trade with another player (can only be used at spawn).
 /report: Reports a player to server moderators.
 /votes: See when you can unlock a home upgrade.
+/pack: Install our custom resource pack.
 </code></pre>
