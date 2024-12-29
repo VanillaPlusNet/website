@@ -75,7 +75,7 @@ RedirectFrom: ./rules
 ### IRL Trading Regulations
 
 * Trading anything in-game or store items for real money, PayPal, Bitcoin, CSGO items, Discord Nitro, or any other real-world currency or method is not allowed.
-* Joining a Discord server that advertises or is dedicated to IRL trading will result in a ban. We do not tolerate any Discord server that is involved in, advertising, engaging in, or devoted to IRL Trading.
+* Joining a Discord server that advertises or is dedicated to IRL trading will result in a ban. We do not tolerate any Discord server involved in, advertising, engaging in, or devoted to IRL Trading.
 * Exception: Legend Token Trading (in-game item exchange for Legend Tokens).
 
 ### Cross-Server Trading Restrictions
@@ -100,11 +100,16 @@ RedirectFrom: ./rules
 * Use of VPNs on the server is not allowed to prevent false bans.
 * Using alt-generating sites is not allowed to prevent false bans.
 
-## Account Sharing
+### Account Sharing
 
-* Ban evasion is not allowed under any circumstances, this includes using the accounts that have been used by banned players. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.\
+* Ban evasion is not allowed under any circumstances, this includes using the accounts that banned players have used. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.\
   \
   &#xNAN;_&#x50;lease note that account sharing may become bannable in the future._
+
+### Account Security and Privacy
+
+* Being a member of a Discord dedicated to gathering user information or Minecraft tokens is strictly prohibited.  
+* Bans related to this violation are permanent, and appeals will not be considered.
 
 ## Client Modification Guidelines
 
