@@ -122,6 +122,7 @@ RedirectFrom: ./rules
 * Mini Map (without entities/players)
 * Litematica (no easy place/printer)
 * Replay Mod
+* Elytra Optimizer
 * HUD Mods that do not show unfair information
   * Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.
 
