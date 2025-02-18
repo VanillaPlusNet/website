@@ -45,4 +45,6 @@ description: See all of the available in-game commands and what they do.
 /report: Reports a player to server moderators.
 /votes: See when you can unlock a home upgrade.
 /pack: Install our custom resource pack.
+/transferkey: Virtually transfer keys to another player.
+/keys view: View how many keys another player has.
 </code></pre>
