@@ -125,6 +125,8 @@ RedirectFrom: ./rules
 * Elytra Optimizer
 * HUD Mods that do not show unfair information
   * Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.
+* EasierVillagerTrading
+* Item Scroller Mod
 
 ### Disallowed Mods:
 
@@ -144,8 +146,6 @@ RedirectFrom: ./rules
 * Macros
 * Non-vanilla block placement
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
-* Item Scroller Mod
-* EasierVillagerTrading
 * NoMoreUselessKeys (NMUK)
 
 ## Punishments
