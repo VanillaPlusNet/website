@@ -147,6 +147,7 @@ RedirectFrom: ./rules
 * Non-vanilla block placement
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
 * NoMoreUselessKeys (NMUK)
+* Villager Trading Plus
 
 ## Punishments
 
