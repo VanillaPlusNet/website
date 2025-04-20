@@ -127,6 +127,7 @@ RedirectFrom: ./rules
   * Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.
 * EasierVillagerTrading
 * Item Scroller Mod
+* Villager Trading Plus
 
 ### Disallowed Mods:
 
@@ -147,7 +148,6 @@ RedirectFrom: ./rules
 * Non-vanilla block placement
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
 * NoMoreUselessKeys (NMUK)
-* Villager Trading Plus
 
 ## Punishments
 
