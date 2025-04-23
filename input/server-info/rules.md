@@ -56,6 +56,10 @@ RedirectFrom: ./rules
 
 * Any form of hacking or cheating is not allowed.
 
+### Scamming for Unbans or Unmutes
+
+* Attempting to scam or deceive others by offering unbans or unmutes via the store or elsewhere is not allowed and will result in a ban.
+
 ### No Duping
 
 * Exploitation of any duplication glitches is not allowed.
