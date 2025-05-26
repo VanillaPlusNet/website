@@ -84,7 +84,7 @@ RedirectFrom: ./rules
 
 ### Cross-Server Trading Restrictions
 
-* Trading Vanilla+ items for items or ranks on Hypixel is not allowed.
+* Trading Vanilla+ items for items or ranks on other servers is not allowed.
 * Advertising trades for items on other servers in public chat is not allowed.
 
 ### Legend Token Scamming
