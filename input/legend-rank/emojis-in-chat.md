@@ -2,13 +2,14 @@
 
 ## Available Emojis
 
-| Text           | Emoji        |
-| -------------- | ------------ |
-| `:skull:`      | :skull:      |
-| `:pray:`       | :pray:       |
-| `:thumbsup:`   | :thumbsup:   |
-| `:thumbsdown:` | :thumbsdown: |
-| `:sob:`        | :sob:        |
+| Text      | Emoji   |
+| --------- | ------- |
+| `:skull:` | :skull: |
+| `:clown:` | 🤡      |
+| `:trash:` | 🗑      |
+| `:sob:`   | 😢      |
+| `:gg:`    | ɢɢ      |
+| `:ez:`    | ᴇᴢ      |
 
 {% hint style="info" %}
 You can use emojis in general chat ingame, or in private messages.
