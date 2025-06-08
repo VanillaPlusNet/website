@@ -36,5 +36,5 @@
 * [Color Codes](legend-rank/color-codes.md)
 * [Nickname Guide](legend-rank/nickname-help.md)
 * [Hex Colors Guide](legend-rank/hex-colours-in-chat.md)
-* [Emojis in chat](legend-rank/emojis-in-chat.md)
+* [Emojis in Chat](legend-rank/emojis-in-chat.md)
 * [Copy of Emojis in chat](legend-rank/emojis-in-chat-1.md)
