@@ -4,14 +4,14 @@ MarkdownFile: true
 OtherFolder: true
 ---
 
-# General information
+# General Information
 
 * IP: **play.vanillaplus.net**
 * Difficulty: **Hard**
 * Worldborders:
-  * Overworld: **800k x 800k**
-  * The End: **500k x 500k**
-  * Nether: **200k x 200k**
+  * Overworld: **800k x 800k** \[+/- 400k blocks in either direction]
+  * The End: **500k x 500k** \[+/- 250k blocks in either direction]
+  * Nether: **200k x 200k** \[+/- 100k blocks in either direction]
 * Nether Roof: **Allowed**
 * Server Location: **NA-East Ashburn, Virginia**
 * Entity Cramming: **8**
