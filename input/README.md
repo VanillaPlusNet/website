@@ -34,7 +34,7 @@ To join the **Vanilla+** server on **Minecraft Bedrock Edition**, follow these s
    Scroll to the bottom of the server list and tap **"Add Server"**
 3. **Enter Server Details**
    * **Server Name:** Vanilla+ (or any name you prefer)
-   * **Server Address:** _play.vanillaplus.net_
+   * **Server Address:** `play.vanillaplus.net`
    * **Port:** `19132`
 4. **Save and Join**\
    Tap **Save**, then select the server from your list to join!
