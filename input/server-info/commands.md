@@ -46,6 +46,4 @@ description: See all of the available in-game commands and what they do.
 /votes: See when you can unlock a home upgrade.
 /pit: Gives information about The Pit.
 /pack: Install our custom resource pack.
-/transferkey: Virtually transfer keys to another player.
-/keys view: View how many keys another player has.
 </code></pre>
