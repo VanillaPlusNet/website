@@ -19,11 +19,6 @@ To join the **Vanilla+** server on **Minecraft Java Edition**, follow these step
 5. **Enter Server Details**
    * **Server Name:** Vanilla+ (or any name you like)
    * **Server Address:** `play.vanillaplus.net`
-
-```
-play.vanillaplus.net
-```
-
 6. **Save and Join**\
    Click **Done**, then select the server and hit **Join Server!**\
    \
