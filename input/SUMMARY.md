@@ -19,10 +19,56 @@
 
 ## Farms
 
-* [Gold Farms](farms/gold-farms.md)
-* [Raid Farms](farms/raid-farms.md)
+* [Auto-brewers](farms/auto-brewers.md)
+* [Furnace Arrays / Auto-Smelters](farms/furnace-arrays-auto-smelters.md)
+* [Bamboo Farms](farms/bamboo-farms.md)
+* [Bartering Farms](farms/bartering-farms.md)
+* [Bonemeal Farms](farms/bonemeal-farms.md)
+* [Blaze Farms](farms/blaze-farms.md)
+* [Cactus Farms](farms/cactus-farms.md)
+* [Cobblestone Farm](farms/cobblestone-farm.md)
+* [Enderman Farms](farms/enderman-farms.md)
+* [Flower/Dye Farms](farms/flower-dye-farms.md)
+* [Froglight Farms](farms/froglight-farms.md)
 * [Ghast Farms](farms/ghast-farms.md)
+* [Gold Farms](farms/gold-farms.md)
+* [Guardian Farms](farms/guardian-farms.md)
+* [Honey Farms](farms/honey-farms.md)
+* [Ice Farms](farms/ice-farms.md)
+* [Iron Farms](farms/iron-farms.md)
+* [Kelp Farms](farms/kelp-farms.md)
+* [Netherwart Farms](farms/netherwart-farms.md)
+* [Magma Cube Farms](farms/magma-cube-farms.md)
+* [Melon/Pumpkin Farms](farms/melon-pumpkin-farms.md)
+* [Obsidian Farms](farms/obsidian-farms.md)
+* [Raid Farms](farms/raid-farms.md)
+* [Shulker Farms](farms/shulker-farms.md)
+* [Slime Farms](farms/slime-farms.md)
+* [Sugarcane Farms](farms/sugarcane-farms.md)
+* [Turtle Farms](farms/turtle-farms.md)
 * [Villagers](farms/villagers.md)
+
+***
+
+* [Wither Rose Farms](wither-rose-farms.md)
+* [Wither Skeleton Farms](wither-skeleton-farms.md)
+* [Wood Farms](wood-farms.md)
+* [Wool Farms](wool-farms.md)
+
+## Farm Additions
+
+* [Item Sorters](farm-additions/item-sorters.md)
+
+***
+
+* [Shulker Box Loaders and Unloaders](shulker-box-loaders-and-unloaders.md)
+* [Gold Farm Auto-Crafter](gold-farm-auto-crafter.md)
+* [Raid Farm Auto-Crafter](raid-farm-auto-crafter.md)
+
+## Modifications
+
+* [Fabric Autoclicker](modifications/fabric-autoclicker.md)
+* [Itemscroller](modifications/itemscroller.md)
 
 ## Player Safety
 
