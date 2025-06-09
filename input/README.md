@@ -26,8 +26,6 @@ To join the **Vanilla+** server on **Minecraft Java Edition**, follow these step
 
 To join the **Vanilla+** server on **Minecraft Bedrock Edition**, follow these steps:
 
-**Open Minecraft Bedrock Edition**
-
 1. **Open Minecraft Bedrock Edition**\
    Launch the game on your device (Windows, Xbox, PlayStation, Switch, or mobile).
 2. **Go to Play > Servers > Add Server**\
