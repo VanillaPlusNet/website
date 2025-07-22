@@ -5,6 +5,13 @@ description: See all of the available in-game commands and what they do.
 # Commands
 
 <pre class="language-yaml" data-overflow="wrap" data-full-width="true"><code class="lang-yaml">/msg: Sends a private message to another player.
+/farms: Gives link for farms guide.
+/pit: Teleports you to The Pit entrance at spawn.
+/mace: Teleports you to the Mace PvP Zone at spawn.
+/vc: Gives the download link for the Simple Voice Chat Mod.
+/leaderboards: Opens the menu for all leaderboards on the server.
+/tokens: Shows your total Legend Rank Token balance and ranking.
+/playtime: Shows your total playtime on the server.
 /delhome: Deletes a previously set home location.
 /rules: Displays the server's rules.
 /level: Show your current level for the current PvP Cycle.
@@ -44,6 +51,6 @@ description: See all of the available in-game commands and what they do.
 /trade: Initiates a trade with another player (can only be used at spawn).
 /report: Reports a player to our trusted staff team.
 /votes: See when you can unlock a home upgrade.
-/pit: Gives information about The Pit.
+/thepit: Gives information about The Pit event.
 /pack: Install our custom resource pack.
 </code></pre>
