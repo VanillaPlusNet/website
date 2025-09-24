@@ -15,7 +15,7 @@
 * [Optimizing Your Connection](server-info/optimizing-your-connection.md)
 * [Reporting Players](server-info/reporting-players.md)
 * [Applying for a Staff Position](server-info/how-to-apply-for-staff.md)
-* [Appealing a Ban](server-info/appealing-a-ban.md)
+* [Ban Appeals](server-info/appealing-a-ban.md)
 
 ## Farms
 
