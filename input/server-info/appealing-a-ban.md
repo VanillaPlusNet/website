@@ -1,12 +1,12 @@
 # Appealing a Ban
 
-## Discord bans
+## Discord Bans
 
 Bans from the Discord server can be appealed here:
 
 {% embed url="https://dyno.gg/form/c03c826b" %}
 
-## Minecraft bans
+## Minecraft Bans
 
 ### **Ban Appeal Guidelines**
 
