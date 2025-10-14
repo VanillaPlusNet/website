@@ -2,17 +2,17 @@
 description: Utilize one of our global proxies to get the best ping to Vanilla+.
 ---
 
-# Optimizing your connection
+# Optimizing Your Connection
 
 ### Addresses:
 
-**`vanillaplus.net` and all others** - Global (Cloudflare)
+**`vanillaplus.net`** and all others - Global (Cloudflare)
 
-**`route2.vanillaplus.net`** - Global (Global Secure Layer) \[Alternative to Route 4]
+**`route2.vanillaplus.net`** - UK
 
-**`route3.vanillaplus.net`** - Frankfurt (OVH) \[Targeted towards EU players, works well for players in Germany]
+**`route3.vanillaplus.net`** - France \[Targeted towards EU players, works well for players in Germany]
 
-**`route4.vanillaplus.net`** - Global (Global Secure Layer) \[Works well globally, prefered route by players, works well for players in the UK]
+**`route4.vanillaplus.net`** - US
 
 ***
 

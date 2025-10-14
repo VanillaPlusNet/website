@@ -9,8 +9,9 @@ OtherFolder: true
 * IP: **play.vanillaplus.net**
 * Difficulty: **Hard**
 * Worldborders:
-  * Overworld: **200,000**
-  * Nether: **50,000**
+  * Overworld: **800k x 800k** \[+/- 400k blocks in either direction]
+  * The End: **500k x 500k** \[+/- 250k blocks in either direction]
+  * Nether: **200k x 200k** \[+/- 100k blocks in either direction]
 * Nether Roof: **Allowed**
 * Server Location: **NA-East Ashburn, Virginia**
 * Entity Cramming: **8**
@@ -18,5 +19,3 @@ OtherFolder: true
 * Mob Spawn Radius: **48**
 * Restart: **12AM UTC / 8PM EST**
 * Spawn Reset: **Half past the hour, every hour**
-* Current Server Specs: **Ryzen 9 7950x, 192GB RAM, 2x 3.84TB NVMe Drives in Raid 1**
-

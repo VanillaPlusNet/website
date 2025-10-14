@@ -2,16 +2,19 @@
 Title: Leaderboard
 MarkdownFile: true
 OtherFolder: true
+hidden: true
+noIndex: true
 ---
 
 # Leaderboard System
 
 <figure><img src="../.gitbook/assets/324626437-5709df20-4818-4990-90cc-e793150b6bf1.png" alt=""><figcaption></figcaption></figure>
+
 Earn points by killing players. Every kill yields 100 base points, with extra points for the armor the player was wearing and the enchantments on the armor. Read below for more information on this feature.
 
 ## Leaderboard rewards
 
-* When the leaderboard resets on the 1st of every month at 4 PM EST, the top 3 players will receive 5 days of [Legend Rank](broken-reference).
+* When the leaderboard resets on the 1st of every month at 4 PM EST, the top 3 players will receive 5 days of [Legend Rank](broken-reference/).
 
 ## How points are calculated
 
@@ -19,7 +22,7 @@ Earn points by killing players. Every kill yields 100 base points, with extra po
 2. **Armor Bonus:** Points increase depending on the type and enchantment level of the victim's armor:
    * **Diamond Armor:** +30 points.
    * **Netherite Armor:** +50 points.
-   * **Enchantments:** Additional points for enchantments like Protection  and Blast Protection, calculated as:
+   * **Enchantments:** Additional points for enchantments like Protection and Blast Protection, calculated as:
      * Level of Enchantment × 30 for Protection enchantments.
      * Level of Enchantment × 10 for other enchantments.
 
