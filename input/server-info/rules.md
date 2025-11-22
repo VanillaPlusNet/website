@@ -97,7 +97,7 @@ RedirectFrom: ./rules
 
 ### VR and Anticheat Compatibility
 
-* Use of VR is not allowed due to potential advantages and anticheat incompatibility.
+* Use of VR is not allowed due to potential advantages and anti-cheat incompatibility.
 
 ### VPN and Alt Restrictions
 
@@ -112,7 +112,7 @@ RedirectFrom: ./rules
 
 ### Account Security and Privacy
 
-* Being a member of a Discord dedicated to gathering user information or Minecraft tokens is strictly prohibited.  
+* Being a member of a Discord dedicated to gathering user information or Minecraft tokens is strictly prohibited.
 * Bans related to this violation are permanent, and appeals will not be considered.
 
 ## Client Modification Guidelines
