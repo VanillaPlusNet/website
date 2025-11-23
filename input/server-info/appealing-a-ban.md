@@ -1,4 +1,4 @@
-# Appealing a Ban
+# Ban Appeals
 
 ## Discord Bans
 
@@ -43,4 +43,4 @@ You may appeal a Minecraft ban by opening a **Punishment Appeal Ticket** in our 
 After a minimum of six months, individuals may appeal their blacklist by creating an appeal ticket in [Discord](https://discord.gg/vanillaplus). This appeal must not only acknowledge past missteps but also convey genuine remorse for any harm that may have been caused. Additionally, it's crucial to provide assurances that similar behaviour will not recur in the future.
 {% endhint %}
 
-{% embed url="https://unblacklist.vanillaplus.net/b/28E8wR93C2kHdq9bKhb3q01" %}
+{% embed url="https://www.paypal.com/ncp/payment/34Q7FWZNSFH88" %}
