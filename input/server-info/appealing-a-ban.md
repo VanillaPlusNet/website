@@ -33,7 +33,7 @@ You may appeal a Minecraft ban by opening a **Punishment Appeal Ticket** in our 
 ### **Blacklist Bans Guidelines**
 
 * You may appeal a blacklist by opening a **Punishment Appeal Ticket** in our Discord server.
-* Alternatively, you may **purchase an unblacklist** directly at this link: [Purchase Unblacklist](https://unblacklist.vanillaplus.net/b/28E8wR93C2kHdq9bKhb3q01).
+* Alternatively, you may **purchase an unblacklist** directly at this link: [Purchase Unblacklist](https://www.paypal.com/ncp/payment/34Q7FWZNSFH88).
 * If your unblacklist purchase is denied, you will receive a full refund.
 * There is **no limit** to the number of unblacklist purchases you may make.
 
