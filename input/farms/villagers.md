@@ -14,7 +14,7 @@ If you wish to un-optimize a villager, simply name it anything else. This will n
 
 ## Villager Breeders
 
-Villager breeders are slightly modified on Vanilla+ due to the 12 villager per chunk limit, causing them to not be infinitely stack-able.
+Villager breeders are slightly modified on Vanilla+ due to the 6 villager per chunk limit, causing them to not be infinitely stack-able.
 
 It is suggested to move your villagers a chunk away from where they were originally bred, as this **sometimes** causes issues with breeders breaking.
 
