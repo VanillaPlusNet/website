@@ -2,7 +2,7 @@
 
 Villagers are significantly modified on Vanilla+.
 
-Villagers on Vanilla+ are limited per chunk to 6 unoptimized villagers and 24 optimized villagers. Any villagers exceeding these limits may despawn after a short period of time.
+Villagers are limited per chunk to 6 unoptimized villagers and 24 optimized villagers. Any villagers exceeding these limits may despawn after a short period of time.
 
 You can optimize a villager by simply trading with it or by using a nametag named “Optimize” on the villager. This will not consume the nametag.
 
