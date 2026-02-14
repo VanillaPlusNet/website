@@ -141,8 +141,7 @@ RedirectFrom: ./rules
 * Seed Cracking Mods
 * Health Indicators
 * Radar Mods
-* Any minimap that displays entities is not allowed
-* Any minimap that displays caves is not allowed
+* Any minimap mod
 * Inventory Organization Mods
   * Anything that moves stuff in your inventory including armor automatically
 * X-Ray
