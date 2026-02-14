@@ -56,7 +56,7 @@ RedirectFrom: ./rules
 
 * Any form of hacking or cheating is not allowed.
 
-### Scamming for Unbans or Unmutes
+### Scamming for Store Purchases
 
 * Attempting to scam or deceive others by offering unbans or unmutes via the store or elsewhere is not allowed and will result in a ban.
 
@@ -152,6 +152,7 @@ RedirectFrom: ./rules
 * Non-vanilla block placement
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
 * NoMoreUselessKeys (NMUK)
+* Bobby mod
 
 ## Punishments
 
