@@ -23,7 +23,7 @@ This Design is not recommended for extended usage periods.
 
 [https://www.mediafire.com/file/r0pvuef1ebyztbb/DrDonttnut's+Bartering+Farm.litematic/file](https://www.mediafire.com/file/r0pvuef1ebyztbb/DrDonttnut's+Bartering+Farm.litematic/file) (Nils)
 
-<figure><img src="../.gitbook/assets/image_2025-06-08_220534687.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_2025-06-08_220534687.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Each chamber should have 3 Piglins on the chains, for a total of 36 Piglins.
 * The hopper clock should have 18 items in.

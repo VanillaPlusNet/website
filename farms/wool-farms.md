@@ -16,7 +16,7 @@ Tutorial by Shulkercraft
 
 ## String Based Wool Farm
 
-If you already have a [Bartering Farm](farms/bartering-farms.md), you can craft the string it produces into wool.
+If you already have a [Bartering Farm](../input/farms/bartering-farms.md), you can craft the string it produces into wool.
 
 Alternatively, you can turn a spider or cave spider spawner into a string farm.
 

@@ -16,8 +16,7 @@ All magma based gold farms need to be slightly modified.\
 If you are too close to mobs that are spawned through pack spawning, their AI will not work, clogging your farm and killing your rates. If you are having this issue, make your afk spot/kill chamber further away from the spawning spots. If you have a farm design that has spawn spaces above and below you, you will need to remove a few layers to fix the issue.
 
 {% embed url="https://www.youtube.com/watch?v=uh3X0Pmr9yc" %}
-\* this farm quickly moves Zombie Pigmen to the overworld in order to free up the mobcap.\
-
+\* this farm quickly moves Zombie Pigmen to the overworld in order to free up the mobcap.\\
 {% endembed %}
 
 {% hint style="info" %}
@@ -27,8 +26,6 @@ This farm should be built in a Nether Wastes biome.
 ## Nether Portal Spam Gold Farms
 
 These are by far the best type of gold farm on Vanilla+, the main drawback being that they require a large amount of obsidian to make.
-
-
 
 * Donut-Shaped Gold Farm\
   \
@@ -49,7 +46,7 @@ This farm should be built in a Nether Wastes biome.
 * Cube-Shaped Gold Farm
 
 {% embed url="https://www.youtube.com/watch?v=K7zw4JYyBeo" %}
-Ignore the kill chamber and Shulker loaders, attach a [Gold Farm Auto-Crafter](../gold-farm-auto-crafter.md) to your farm instead.
+Ignore the kill chamber and Shulker loaders, attach a [Gold Farm Auto-Crafter](../../farm-additions/gold-farm-auto-crafter.md) to your farm instead.
 {% endembed %}
 
 It is **imperative** that the farm is chunk aligned correctly, to find out how to chunk align the farm, watch the above tutorial.\

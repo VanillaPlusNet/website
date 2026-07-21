@@ -14,7 +14,7 @@ Example:
 &6Not&4ch
 ```
 
-<figure><img src="../.gitbook/assets/Clipboard 14 Apr 2024 at 22.55 copy.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Clipboard 14 Apr 2024 at 22.55 copy.png" alt=""><figcaption></figcaption></figure>
 
 See page below for list of Color Codes, keep in mind that Formatting Codes are not supported for nicknames.
 

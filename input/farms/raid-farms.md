@@ -41,19 +41,15 @@ credits to Weltzkreig, Mera0 and MCSentence
 
 Q: My villagers despawned, why?\
 \
-A: Your villagers did not despawn, they were likely hjit by lightning. Ensure there is a large roof over  your villager pods or place a lightning rod away from the villagers to divert any lightning.
-
-
+A: Your villagers did not despawn, they were likely hjit by lightning. Ensure there is a large roof over your villager pods or place a lightning rod away from the villagers to divert any lightning.
 
 Q: I accidentally built my farm at the wrong sub-chunk co-ordinates, how can I fix this?\
 \
 A: You can't, take down the farm and rebuild it correctly.
 
-
-
 Q: I need a storage system, where can I find one?\
 \
-A: [Raid Farm Auto-Crafter](../raid-farm-auto-crafter.md)
+A: [Raid Farm Auto-Crafter](../../farm-additions/raid-farm-auto-crafter.md)
 
 ***
 

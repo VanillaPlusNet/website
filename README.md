@@ -1,5 +1,6 @@
 ---
 description: How to connect to Vanilla+.
+icon: arrow-turn-down-right
 ---
 
 # Joining Vanilla+
@@ -21,8 +22,7 @@ To join the **Vanilla+** server on **Minecraft Java Edition**, follow these step
    * **Server Address:** `play.vanillaplus.net`
 6. **Save and Join**\
    Click **Done**, then select the server and hit **Join Server!**\
-   \
-
+   \\
 
 To join the **Vanilla+** server on **Minecraft Bedrock Edition**, follow these steps:
 
@@ -36,7 +36,5 @@ To join the **Vanilla+** server on **Minecraft Bedrock Edition**, follow these s
    * **Port:** `19132`
 4. **Save and Join**\
    Tap **Save**, then select the server from your list to join!
-
-
 
 Enjoy your time on Vanilla+!

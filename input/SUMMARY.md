@@ -1,8 +1,12 @@
-# Table of contents
+---
+icon: file-lines
+---
+
+# Table of Contents
 
 ## Getting Started
 
-* [Joining Vanilla+](README.md)
+* [Joining Vanilla+](../)
 
 ## Server Info
 
@@ -50,10 +54,10 @@
 
 ***
 
-* [Wither Rose Farms](wither-rose-farms.md)
-* [Wither Skeleton Farms](wither-skeleton-farms.md)
-* [Wood Farms](wood-farms.md)
-* [Wool Farms](wool-farms.md)
+* [Wither Rose Farms](../farms/wither-rose-farms.md)
+* [Wither Skeleton Farms](../farms/wither-skeleton-farms.md)
+* [Wood Farms](../farms/wood-farms.md)
+* [Wool Farms](../farms/wool-farms.md)
 
 ## Farm Additions
 
@@ -61,9 +65,9 @@
 
 ***
 
-* [Shulker Box Loaders and Unloaders](shulker-box-loaders-and-unloaders.md)
-* [Gold Farm Auto-Crafter](gold-farm-auto-crafter.md)
-* [Raid Farm Auto-Crafter](raid-farm-auto-crafter.md)
+* [Shulker Box Loaders and Unloaders](../farm-additions/shulker-box-loaders-and-unloaders.md)
+* [Gold Farm Auto-Crafter](../farm-additions/gold-farm-auto-crafter.md)
+* [Raid Farm Auto-Crafter](../farm-additions/raid-farm-auto-crafter.md)
 
 ## Modifications
 

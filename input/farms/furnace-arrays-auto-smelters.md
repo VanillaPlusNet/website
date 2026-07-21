@@ -16,13 +16,13 @@ The majority of people will use coal, blaze rods or other conventional methods t
 Super-smelters refer to large-scale auto-smelters.
 {% endhint %}
 
-[ https://www.mediafire.com/file/vnurjstb6gpbvjz/Autosmelter+by+Dropjawed.litematic/file](https://www.mediafire.com/file/vnurjstb6gpbvjz/Autosmelter+by+Dropjawed.litematic/file) (Dropjawed)
+[https://www.mediafire.com/file/vnurjstb6gpbvjz/Autosmelter+by+Dropjawed.litematic/file](https://www.mediafire.com/file/vnurjstb6gpbvjz/Autosmelter+by+Dropjawed.litematic/file) (Dropjawed)
 
 The above super-smelter is directional and must be built facing East or West according to following screenshot.
 
-<figure><img src="../.gitbook/assets/image_2025-06-08_195001612.png" alt="" width="563"><figcaption><p>When looking at the farm from this direction, you must either be looking East or West.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_2025-06-08_195001612.png" alt="" width="563"><figcaption><p>When looking at the farm from this direction, you must either be looking East or West.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image_2025-06-08_195123416.png" alt="" width="563"><figcaption><p>The immediate hopper in this screenshot must have 1 stack and 56 items in it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_2025-06-08_195123416.png" alt="" width="563"><figcaption><p>The immediate hopper in this screenshot must have 1 stack and 56 items in it.</p></figcaption></figure>
 
 * Before using the farm, you must load 6 hopper minecarts into the glass tube with the fence gate at the bottom. You can do this simply by pushing them in from above.
 * This farm is recommended to use Coal Blocks. You can load your fuel into the chest minecart that travels around the lower rail system.

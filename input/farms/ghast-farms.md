@@ -8,7 +8,7 @@ When a Ghast enters a Nether portal, it is automatically killed and converted in
 
 Additionally, you do not need an account in the overworld side to load the collection system, this is done automatically.
 
-<figure><img src="../.gitbook/assets/ghast.png" alt="" width="352"><figcaption><p>This example has one small Nether Portal and hoppers on either side to pick up the Ghast drops that come through.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ghast.png" alt="" width="352"><figcaption><p>This example has one small Nether Portal and hoppers on either side to pick up the Ghast drops that come through.</p></figcaption></figure>
 
 {% hint style="info" %}
 * On Vanilla+ we do not send the whole Ghast through the portal, only its drops.
@@ -38,7 +38,7 @@ This farm should be built in a Soul Sand Valley biome.
 You do not need to use glowstone anymore in the above schematic, just build the spawn platforms out of solid blocks, there is no longer any need for light sources.
 
 \
-It is **imperative** that you orientate your Donut-Shaped Ghast Farm in the correct direction, this direction changes according to each individual situation.&#x20;
+It is **imperative** that you orientate your Donut-Shaped Ghast Farm in the correct direction, this direction changes according to each individual situation.
 
 \
 You can use the following orientation tutorial to figure out how to orientate your farm correctly.
