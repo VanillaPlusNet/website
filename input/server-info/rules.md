@@ -106,9 +106,7 @@ RedirectFrom: ./rules
 
 ### Account Sharing
 
-* Ban evasion is not allowed under any circumstances, this includes using the accounts that banned players have used. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.\
-  \
-  &#xNAN;_&#x50;lease note that account sharing may become bannable in the future._
+* Ban evasion is not allowed under any circumstances, this includes using the accounts that banned players have used. Sharing accounts is strongly discouraged and will most likely result in your account(s) being banned.
 
 ### Account Security and Privacy
 
@@ -125,13 +123,17 @@ RedirectFrom: ./rules
 * Freelook, Zoom
 * Mini Map (without entities/players)
 * Litematica (no easy place/printer)
-* Replay Mod
 * Elytra Optimizer
+* Marlow's Crystal Optimizer
+* CuteBow's Client Side Crystals
+* Hero's Anchor Optimizer&#x20;
 * HUD Mods that do not show unfair information
   * Inventory HUD, Potion HUD, Armor HUD, Coordinates, Waypoints, etc.
 * EasierVillagerTrading
-* Item Scroller Mod
+* Item Scroller Mod (Only allowed if used for **Grinding Purposes only**)
 * Villager Trading Plus
+* Tick Sync
+* Distant Horizons
 
 ### Disallowed Mods:
 
@@ -152,6 +154,15 @@ RedirectFrom: ./rules
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
 * NoMoreUselessKeys (NMUK)
 * Bobby mod
+* Walksy Anchor Optimizer
+
+{% hint style="warning" %}
+This is not the final list of disallowed mods. Do not use a mod unless it is listed under Allowed Mods or a staff member has confirmed it is allowed.\
+\
+Staff members reserve the right to punish players using any modifications that is determined to provide an unfair advantage over others, even if that modification has not yet been added to the list above. &#x20;
+{% endhint %}
+
+
 
 ## Punishments
 

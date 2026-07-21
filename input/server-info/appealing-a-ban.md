@@ -15,7 +15,7 @@ You may appeal a Minecraft ban by opening a **Punishment Appeal Ticket** in our 
 **Important Notes:**
 
 * You may only appeal your own ban. Appeals submitted on behalf of other players will not be considered.
-* If you were banned by the Anti-Cheat system (ban reason: _Unfair Advantage_) and believe the ban was false, you must provide a **clip showing what you were doing leading up to the ban**. Appeals without this evidence will not be accepted.
+* If you were banned by the Anti-Cheat system (ban reason: _Unfair Advantage_) and believe the ban was false, you **must** provide a **clip showing what you were doing leading up to the ban**. Appeals without this evidence will not be accepted.
 
 **When submitting your appeal, please include:**
 
@@ -32,7 +32,7 @@ You may appeal a Minecraft ban by opening a **Punishment Appeal Ticket** in our 
 
 ### **Blacklist Bans Guidelines**
 
-* You may appeal a blacklist by opening a **Punishment Appeal Ticket** in our Discord server.
+* You may appeal a blacklist by opening a **Blacklist Appeal Ticket** in our Discord server.
 * Alternatively, you may **purchase an unblacklist** directly at this link: [Purchase Unblacklist](https://www.paypal.com/ncp/payment/34Q7FWZNSFH88).
 * If your unblacklist purchase is denied, you will receive a full refund.
 * There is **no limit** to the number of unblacklist purchases you may make.
