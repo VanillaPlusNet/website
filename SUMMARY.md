@@ -12,7 +12,7 @@
   * [Commands](input/server-info/commands.md)
   * [General Information](input/server-info/general-information.md)
   * [How to apply for staff](input/server-info/how-to-apply-for-staff.md)
-  * [Leaderboard System](input/server-info/leaderboard-system.md)
+  * [Leaderboard System](server-info/leaderboard-system.md)
   * [Optimizing Your Connection](input/server-info/optimizing-your-connection.md)
   * [Reporting players](input/server-info/reporting-players.md)
   * [Vote Links](input/server-info/vote-links.md)

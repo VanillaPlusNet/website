@@ -1,4 +1,5 @@
 ---
+description: Mods that are currently disallowed on Vanilla+
 icon: xmark
 ---
 

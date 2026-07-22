@@ -1,4 +1,5 @@
 ---
+description: Mods that are currently allowed on Vanilla+
 icon: check
 ---
 

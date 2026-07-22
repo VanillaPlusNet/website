@@ -1,4 +1,5 @@
 ---
+description: This page contains the in-game rules of Vanilla+.
 icon: joystick
 ---
 

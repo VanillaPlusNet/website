@@ -10,7 +10,7 @@ description: See all of the available in-game commands and what they do.
 /mace: Teleports you to the Mace PvP Zone at spawn.
 /vc: Gives the download link for the Simple Voice Chat Mod.
 /leaderboards: Opens the menu for all leaderboards on the server.
-/tokens: Shows your total Legend Rank Token balance and ranking.
+/balance: Shows your total Legend Rank Token balance and ranking.
 /playtime: Shows your total playtime on the server.
 /delhome: Deletes a previously set home location.
 /rules: Displays the server's rules.

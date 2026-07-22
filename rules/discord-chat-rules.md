@@ -1,4 +1,5 @@
 ---
+description: This page contains the Discord / Chat Rules of Vanilla+.
 icon: discord
 ---
 

@@ -3,7 +3,7 @@ Title: Rules
 MarkdownFile: true
 OtherFolder: false
 RedirectFrom: ./rules
-description: This page contains the network-wide rules of Vanilla+
+description: Network-Wide rules of Vanilla+
 icon: memo-circle-info
 ---
 

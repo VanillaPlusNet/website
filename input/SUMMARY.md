@@ -14,7 +14,7 @@ icon: file-lines
 * [Commands](server-info/commands.md)
 * [Vote Rewards](server-info/vote-rewards.md)
 * [Vote Links](server-info/vote-links.md)
-* [Leaderboard System](server-info/leaderboard-system.md)
+* [Leaderboard System](/broken/pages/BmKgw43jKZzgltMQAtIH)
 * [Optimizing Your Connection](server-info/optimizing-your-connection.md)
 * [Reporting Players](server-info/reporting-players.md)
 * [Applying for a Staff Position](server-info/how-to-apply-for-staff.md)
