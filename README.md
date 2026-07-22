@@ -1,6 +1,7 @@
 ---
 description: How to connect to Vanilla+.
 icon: arrow-turn-down-right
+coverY: 0
 ---
 
 # Joining Vanilla+
