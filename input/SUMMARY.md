@@ -11,7 +11,6 @@ icon: file-lines
 ## Server Info
 
 * [General Information](server-info/general-information.md)
-* [Rules](server-info/rules.md)
 * [Commands](server-info/commands.md)
 * [Vote Rewards](server-info/vote-rewards.md)
 * [Vote Links](server-info/vote-links.md)
@@ -20,6 +19,13 @@ icon: file-lines
 * [Reporting Players](server-info/reporting-players.md)
 * [Applying for a Staff Position](server-info/how-to-apply-for-staff.md)
 * [Ban Appeals](server-info/appealing-a-ban.md)
+
+## Rules
+
+* Discord / Chat Rules
+* In-Game Rules
+* Allowed Mods
+* Disallowed Mods
 
 ## Farms
 
