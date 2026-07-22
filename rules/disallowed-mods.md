@@ -25,6 +25,7 @@ icon: xmark
 * NoMoreUselessKeys (NMUK)
 * Bobby mod
 * Walksy Anchor Optimizer
+* **Any optimizer's that aren't listed in** [**Allowed Mods**](https://docs.vanillaplus.net/rules/allowed-mods)
 
 {% hint style="warning" %}
 This is not the final list of disallowed mods. Do not use a mod unless it is listed under Allowed Mods or a staff member has confirmed it is allowed.\
