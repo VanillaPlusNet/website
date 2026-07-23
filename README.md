@@ -1,7 +1,30 @@
 ---
 description: How to connect to Vanilla+.
 icon: arrow-turn-down-right
+cover: .gitbook/assets/v+ logo.png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: background
+    mask: radial
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Joining Vanilla+

@@ -14,7 +14,7 @@ icon: file-lines
 * [Commands](server-info/commands.md)
 * [Vote Rewards](server-info/vote-rewards.md)
 * [Vote Links](server-info/vote-links.md)
-* [Leaderboard System](/broken/pages/BmKgw43jKZzgltMQAtIH)
+* [Leaderboard System](../server-info/leaderboard-system.md)
 * [Optimizing Your Connection](server-info/optimizing-your-connection.md)
 * [Reporting Players](server-info/reporting-players.md)
 * [Applying for a Staff Position](server-info/how-to-apply-for-staff.md)
@@ -22,10 +22,10 @@ icon: file-lines
 
 ## Rules
 
-* Discord / Chat Rules
-* In-Game Rules
-* Allowed Mods
-* Disallowed Mods
+* [Discord / Chat Rules](../rules/discord-chat-rules.md)
+* [In-Game Rules](../rules/in-game-rules.md)
+* [Allowed Mods](../rules/allowed-mods.md)
+* [Disallowed Mods](../rules/disallowed-mods.md)
 
 ## Farms
 

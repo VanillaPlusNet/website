@@ -37,7 +37,8 @@ icon: joystick
 
 ### Cross-Server Trading Restrictions
 
-* Trading Vanilla+ items for items or ranks on other servers is not allowed.
+* Trading Vanilla+ items for items or ranks on other servers is allowed.
+* Trading Store Items from Vanilla+ for items or ranks on other servers is not allowed.&#x20;
 * Advertising trades for items on other servers in public chat is not allowed.
 
 ### Legend Token Scamming

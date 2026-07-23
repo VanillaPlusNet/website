@@ -20,11 +20,12 @@ icon: xmark
 * Baritone
 * Freecam
 * Macros
+* Meteor Client, Wurst Client, Argon Client, Aristois Client, Prestige Client, Krypton Client, etc.
+  * Any Client containing Cheating Modules (Crystal Aura, Anchor Macro, Auto Totem, AutoXP, ESP, etc.)
 * Non-vanilla block placement
 * No Fog, vanilla no fog is allowed (‘Video Settings’ Press the ‘Details’ tab. Find the ‘Fog’ button and cycle through the options until it is ‘Off’)
 * NoMoreUselessKeys (NMUK)
 * Bobby mod
-* Walksy Anchor Optimizer
 * **Any optimizer's that aren't listed in** [**Allowed Mods**](https://docs.vanillaplus.net/rules/allowed-mods)
 
 {% hint style="warning" %}
