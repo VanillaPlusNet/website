@@ -7,7 +7,7 @@ layout:
   width: default
   cover:
     visible: true
-    size: background
+    size: full
     mask: radial
   title:
     visible: true
